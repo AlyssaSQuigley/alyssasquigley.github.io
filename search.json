@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "about.html#pyspark-environment-check",
+    "href": "about.html#pyspark-environment-check",
+    "title": "About",
+    "section": "PySpark Environment Check",
+    "text": "PySpark Environment Check\n\nimport pandas as pd\n\ndata = [(\"Alyssa\", 1), (\"Quigley\", 2)]\ndf = pd.DataFrame(data, columns=[\"name\", \"value\"])\ndf\n\n\n\n\n\n\n\n\nname\nvalue\n\n\n\n\n0\nAlyssa\n1\n\n\n1\nQuigley\n2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Alyssa S Quigley",
