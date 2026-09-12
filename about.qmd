@@ -3,3 +3,14 @@ title: "About"
 ---
 
 About this site
+
+## PySpark Environment Check
+
+```{python}
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("AboutPage").getOrCreate()
+data = [("Alyssa", 1), ("Quigley", 2)]
+df = spark.createDataFrame(data, ["name", "value"])
+df.show()
+```

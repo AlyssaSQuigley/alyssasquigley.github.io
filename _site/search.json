@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "about.html#pyspark-environment-check",
+    "href": "about.html#pyspark-environment-check",
+    "title": "About",
+    "section": "PySpark Environment Check",
+    "text": "PySpark Environment Check\n\nfrom pyspark.sql import SparkSession\n\nspark = SparkSession.builder.appName(\"AboutPage\").getOrCreate()\ndata = [(\"Alyssa\", 1), (\"Quigley\", 2)]\ndf = spark.createDataFrame(data, [\"name\", \"value\"])\ndf.show()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nWARNING: package sun.security.action not in java.base\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n/home/ubuntu/.venv/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas &gt;= 3.0.0. Some features may not work correctly. It is recommended to use pandas &lt; 3.0.0 for now.\n  require_minimum_pandas_version()\n26/09/12 21:09:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n\n[Stage 0:&gt;                                                          (0 + 1) / 1]\n\n                                                                                \n\n\n+-------+-----+\n|   name|value|\n+-------+-----+\n| Alyssa|    1|\n|Quigley|    2|\n+-------+-----+"
   }
 ]
