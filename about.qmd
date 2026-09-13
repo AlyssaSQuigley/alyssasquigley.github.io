@@ -7,10 +7,9 @@ About this site
 ## PySpark Environment Check
 
 ```{python}
-from pyspark.sql import SparkSession
+import pandas as pd
 
-spark = SparkSession.builder.appName("AboutPage").getOrCreate()
 data = [("Alyssa", 1), ("Quigley", 2)]
-df = spark.createDataFrame(data, ["name", "value"])
-df.show()
+df = pd.DataFrame(data, columns=["name", "value"])
+df
 ```
