@@ -4,7 +4,7 @@ title: "About"
 
 About this site
 
-## PySpark Environment Check
+## Python Environment Check
 
 ```{python}
 import pandas as pd
