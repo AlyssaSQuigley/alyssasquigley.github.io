@@ -3,13 +3,3 @@ title: "About"
 ---
 
 About this site
-
-## PySpark Environment Check
-
-```{python}
-import pandas as pd
-
-data = [("Alyssa", 1), ("Quigley", 2)]
-df = pd.DataFrame(data, columns=["name", "value"])
-df
-```
