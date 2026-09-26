@@ -1,39 +1,85 @@
 ---
-title: "CV"
+pagetitle: "CV | Alyssa Q."
+page-layout: full
+description: "Executive profile: global procurement and strategic sourcing leader."
 ---
 
-## Professional Summary
+```{=html}
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Curriculum vitae</div>
+    <h1 class="display">Experience</h1>
+  </div>
+</section>
 
-Global procurement and strategic sourcing leader with deep experience across consumer, retail, and digital commerce organizations. I've built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. I'm now pairing that operating experience with formal analytics training through Boston University's MS in Applied Business Analytics.
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <div class="eyebrow">Professional summary</div>
+      <p class="lede" style="color:var(--ink)">Global procurement and strategic sourcing leader with deep experience across consumer, retail, and digital commerce organizations.</p>
+      <p>I've built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. My work spans category strategy, supplier management, procure-to-pay and ERP implementation, M&amp;A integration, and enterprise transformation.</p>
+      <p>I'm now pairing that operating experience with formal training in analytics through Boston University's MS in Applied Business Analytics.</p>
+    </div>
+    <div class="dl-card">
+      <div class="eyebrow" style="color:var(--sand)">Download</div>
+      <h3 class="display">Executive Profile</h3>
+      <p>A one-page PDF summary of my career, credentials, and education.</p>
+      <a class="btn-ed" href="files/Alyssa-Q-Executive-Profile.pdf" download><i class="bi bi-download"></i>&nbsp; Download PDF</a>
+    </div>
+  </div>
+</section>
 
-[Download my CV (PDF)](files/Alyssa-Q-Executive-Profile.pdf){.btn .btn-dark download="Alyssa-Q-Executive-Profile.pdf"}
+<section class="section alt">
+  <div class="wrap">
+    <div class="eyebrow">Career path</div>
+    <h2 class="section-title display">Where I've worked</h2>
+    <ol class="timeline">
+      <li class="current"><div class="yr">2026 - Present</div><div><div class="co">Ralph Lauren</div><div class="role">Head of Global Indirect Procurement</div></div></li>
+      <li><div class="yr">2023 - 2025</div><div><div class="co">Fanatics</div><div class="role">Vice President, Global Head of Procurement</div></div></li>
+      <li><div class="yr">2018 - 2023</div><div><div class="co">Revlon</div><div class="role">Senior Director, Procurement &amp; Business Transformation &middot; Director, Procurement</div></div></li>
+      <li><div class="yr">2016 - 2018</div><div><div class="co">Tapestry</div><div class="role">Senior Manager, Global Sourcing</div></div></li>
+      <li><div class="yr">2012 - 2016</div><div><div class="co">Starbucks</div><div class="role">Category Manager, Global Merchandise &amp; Emerging Brands &middot; Sourcing Manager</div></div></li>
+      <li><div class="yr">2008 - 2012</div><div><div class="co">Target</div><div class="role">Sourcing Product Manager &middot; Sourcing Business Analyst</div></div></li>
+    </ol>
+  </div>
+</section>
 
-## Experience
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Education</div>
+    <h2 class="section-title display">Degrees &amp; credentials</h2>
+    <div class="creds">
+      <div class="cred edu"><div class="t">MS, Applied Business Analytics</div><div class="s">Boston University &middot; in progress</div></div>
+      <div class="cred edu"><div class="t">MBA, with Distinction</div><div class="s">Thunderbird School of Global Management</div></div>
+      <div class="cred edu"><div class="t">BA, International Relations</div><div class="s">Carleton College</div></div>
+    </div>
+    <div class="creds" style="margin-top:1rem">
+      <div class="cred"><div class="t">Certified Professional in Supply Management (CPSM)</div><div class="s">Institute for Supply Management</div></div>
+      <div class="cred"><div class="t">Negotiation Mastery</div><div class="s">Harvard University</div></div>
+      <div class="cred"><div class="t">Executive Leadership</div><div class="s">Cornell University</div></div>
+      <div class="cred"><div class="t">Advanced Project Management (SCPM)</div><div class="s">Stanford University</div></div>
+      <div class="cred"><div class="t">Global CSR &amp; Sustainability</div><div class="s">Thunderbird School of Global Management</div></div>
+    </div>
+  </div>
+</section>
 
-| Years | Company | Role |
-|---|---|---|
-| 2026 - Present | **Ralph Lauren** | Head of Global Indirect Procurement |
-| 2023 - 2025 | **Fanatics** | Vice President, Global Head of Procurement |
-| 2018 - 2023 | **Revlon** | Senior Director, Procurement & Business Transformation; Director, Procurement |
-| 2016 - 2018 | **Tapestry** | Senior Manager, Global Sourcing |
-| 2012 - 2016 | **Starbucks** | Category Manager, Global Merchandise & Emerging Brands; Sourcing Manager |
-| 2008 - 2012 | **Target** | Sourcing Product Manager; Sourcing Business Analyst |
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Leadership</div>
+    <h2 class="section-title display">In the community</h2>
+    <div class="creds">
+      <div class="cred edu"><div class="t">Community Senior Council Head</div><div class="s">New York Junior League</div></div>
+      <div class="cred edu"><div class="t">Leadership Council Member</div><div class="s">The Pink Agenda</div></div>
+    </div>
+  </div>
+</section>
 
-## Education
-
-- **MS, Applied Business Analytics** - Boston University (in progress)
-- **MBA, with Distinction** - Thunderbird School of Global Management
-- **BA, International Relations** - Carleton College
-
-## Certifications
-
-- Certified Professional in Supply Management (CPSM) - Institute for Supply Management
-- Negotiation Mastery - Harvard University
-- Executive Leadership - Cornell University
-- Advanced Project Management (SCPM) - Stanford University
-- Global CSR & Sustainability - Thunderbird School of Global Management
-
-## Leadership
-
-- **Senior Community Council Head** - New York Junior League
-- **Leadership Council Member** - The Pink Agenda
+<section class="section alt">
+  <div class="wrap">
+    <div class="eyebrow">Core competencies</div>
+    <ul class="chips" style="margin-top:1rem">
+      <li>Global Sourcing Strategy</li><li>Category Management</li><li>Supplier Performance</li><li>Procure-to-Pay</li><li>ERP &amp; Procurement Technology</li><li>Cost Management</li><li>M&amp;A Integration</li><li>Risk &amp; Compliance</li><li>Change Management</li><li>ESG &amp; Supplier Diversity</li><li>Python</li><li>SQL &amp; Spark SQL</li><li>AWS</li><li>Data Visualization</li>
+    </ul>
+  </div>
+</section>
+```

@@ -1,11 +1,27 @@
 ---
-title: "Contact"
+pagetitle: "Contact | Alyssa Q."
+page-layout: full
 ---
 
-I'm always glad to connect with procurement and analytics leaders, fellow BU students, and anyone working on better ways to put data to work.
+<section class="page-head"><div class="wrap">
+<div class="eyebrow">Contact</div>
+<h1 class="display">Let's talk.</h1>
+<p class="lede narrow">I'm always glad to connect with
+procurement and analytics leaders, fellow BU students,
+and anyone working on better ways to put data to work.</p>
+</div></section>
 
-<i class="bi bi-linkedin"></i> [Connect with me on LinkedIn](https://www.linkedin.com/in/alyssa-q/)
-
-<i class="bi bi-github"></i> [View my GitHub](https://github.com/AlyssaSQuigley)
-
-<i class="bi bi-geo-alt"></i> Based in New York, NY
+<section class="section"><div class="wrap narrow contact-cards">
+<a class="c-card" href="https://www.linkedin.com/in/alyssa-q/">
+<i class="bi bi-linkedin"></i>
+<div><div class="k">LinkedIn</div>
+<div class="v">Connect with me on LinkedIn</div></div></a>
+<a class="c-card" href="https://github.com/AlyssaSQuigley">
+<i class="bi bi-github"></i>
+<div><div class="k">GitHub</div>
+<div class="v">View my
+GitHub</div></div></a>
+<div class="c-card"><i class="bi bi-geo-alt"></i>
+<div><div class="k">Based in</div>
+<div class="v">New York, NY</div></div></div>
+</div></section>
