@@ -1,16 +1,93 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "About this site"
+    "text": "I’m always glad to connect with procurement and analytics leaders, fellow BU students, and anyone working on better ways to put data to work.\n LinkedIn: linkedin.com/in/alyssa-q\n GitHub: github.com/AlyssaSQuigley\n Based in: New York, NY"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Global procurement and strategic sourcing leader with deep experience across consumer, retail, and digital commerce organizations. I’ve built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. I’m now pairing that operating experience with formal analytics training through Boston University’s MS in Applied Business Analytics.\nDownload my CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "CV",
+    "section": "",
+    "text": "Global procurement and strategic sourcing leader with deep experience across consumer, retail, and digital commerce organizations. I’ve built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. I’m now pairing that operating experience with formal analytics training through Boston University’s MS in Applied Business Analytics.\nDownload my CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\n\n\n\n\n\n\n\n\nYears\nCompany\nRole\n\n\n\n\n2026 - Present\nRalph Lauren\nHead of Global Indirect Procurement\n\n\n2023 - 2025\nFanatics\nVice President, Global Head of Procurement\n\n\n2018 - 2023\nRevlon\nSenior Director, Procurement & Business Transformation; Director, Procurement\n\n\n2016 - 2018\nTapestry\nSenior Manager, Global Sourcing\n\n\n2012 - 2016\nStarbucks\nCategory Manager, Global Merchandise & Emerging Brands; Sourcing Manager\n\n\n2008 - 2012\nTarget\nSourcing Product Manager; Sourcing Business Analyst"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nMS, Applied Business Analytics - Boston University (in progress)\nMBA, with Distinction - Thunderbird School of Global Management\nBA, International Relations - Carleton College"
+  },
+  {
+    "objectID": "cv.html#certifications",
+    "href": "cv.html#certifications",
+    "title": "CV",
+    "section": "Certifications",
+    "text": "Certifications\n\nCertified Professional in Supply Management (CPSM) - Institute for Supply Management\nNegotiation Mastery - Harvard University\nExecutive Leadership - Cornell University\nAdvanced Project Management (SCPM) - Stanford University\nGlobal CSR & Sustainability - Thunderbird School of Global Management"
+  },
+  {
+    "objectID": "cv.html#leadership",
+    "href": "cv.html#leadership",
+    "title": "CV",
+    "section": "Leadership",
+    "text": "Leadership\n\nSenior Community Council Head - New York Junior League\nLeadership Council Member - The Pink Agenda"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Alyssa S Quigley",
+    "title": "Alyssa Q.",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m Alyssa, a global procurement leader who has built and scaled sourcing organizations across retail, consumer, and digital commerce brands. Today I lead Global Indirect Procurement at Ralph Lauren, and I’m earning an MS in Applied Business Analytics at Boston University to bring sharper data to the decisions procurement makes every day."
+  },
+  {
+    "objectID": "index.html#where-procurement-strategy-meets-analytics",
+    "href": "index.html#where-procurement-strategy-meets-analytics",
+    "title": "Alyssa Q.",
+    "section": "",
+    "text": "I’m Alyssa, a global procurement leader who has built and scaled sourcing organizations across retail, consumer, and digital commerce brands. Today I lead Global Indirect Procurement at Ralph Lauren, and I’m earning an MS in Applied Business Analytics at Boston University to bring sharper data to the decisions procurement makes every day."
+  },
+  {
+    "objectID": "index.html#why-analytics-why-now",
+    "href": "index.html#why-analytics-why-now",
+    "title": "Alyssa Q.",
+    "section": "Why analytics, why now",
+    "text": "Why analytics, why now\nProcurement sits on some of the richest data in any company: every supplier, every contract, every dollar that leaves the building. Yet analytics is one of the least invested-in capabilities in the function. As supply-chain volatility, cost pressure, and AI change how fast organizations need to act, I went back to school to build the technical foundation (SQL, Spark, cloud platforms, and data visualization) to lead that shift."
+  },
+  {
+    "objectID": "index.html#what-i-bring",
+    "href": "index.html#what-i-bring",
+    "title": "Alyssa Q.",
+    "section": "What I bring",
+    "text": "What I bring\n\nStrategic Sourcing - category strategy, supplier negotiation, and vendor performance\nEnterprise Transformation - building procurement functions, procure-to-pay and ERP rollouts, M&A integration\nAnalytics & Insight - spend visibility, KPI dashboards, and hands-on Python, SQL, and Spark"
+  },
+  {
+    "objectID": "index.html#career-goals",
+    "href": "index.html#career-goals",
+    "title": "Alyssa Q.",
+    "section": "Career goals",
+    "text": "Career goals\nI want to lead procurement organizations where analytics is a core capability, not an afterthought: predictive spend insight, early supplier-risk signals, and decision tools that help teams move faster with confidence."
+  },
+  {
+    "objectID": "index.html#beyond-the-office",
+    "href": "index.html#beyond-the-office",
+    "title": "Alyssa Q.",
+    "section": "Beyond the office",
+    "text": "Beyond the office\nI serve as Senior Community Council Head with the New York Junior League, where I’m redesigning how the League captures and reports volunteer impact."
   }
 ]
