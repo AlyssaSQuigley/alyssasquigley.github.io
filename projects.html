@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Executive profile: global procurement and strategic sourcing leader.">
 
-<title>CV | Alyssa Q. – Alyssa Q.</title>
+<title>Projects | Alyssa Q. – Alyssa Q.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,8 +77,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="CV | Alyssa Q.">
-<meta property="og:description" content="Executive profile: global procurement and strategic sourcing leader.">
+<meta property="og:title" content="Projects | Alyssa Q.">
 <meta property="og:image" content="https://alyssasquigley.github.io/images/headshot.jpg">
 <meta property="og:site_name" content="Alyssa Q.">
 </head>
@@ -106,11 +104,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -149,81 +147,83 @@ ul.task-list li input[type="checkbox"] {
 
 <section class="page-head">
   <div class="wrap">
-    <div class="eyebrow">Curriculum vitae</div>
-    <h1 class="display">Experience</h1>
+    <div class="eyebrow">Selected work</div>
+    <h1 class="display">Projects</h1>
+    <p class="lede narrow">Hands-on analytics work from my MS in Applied Business Analytics at Boston University, where most projects are team-based, plus analytics I lead as a volunteer leader in my community.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap two-col">
+<div class="wrap">
+  <article class="project">
+    <div class="project-media">
+      <img src="images/proj-spark.svg" alt="Pipeline: job postings data processed on AWS with Spark SQL and published as a Quarto report" width="640" height="420" loading="lazy">
+    </div>
     <div>
-      <div class="eyebrow">Professional summary</div>
-      <p class="lede" style="color:var(--ink)">Global procurement and strategic sourcing leader with deep experience across consumer, retail, and digital commerce organizations.</p>
-      <p>I've built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. My work spans category strategy, supplier management, procure-to-pay and ERP implementation, M&amp;A integration, and enterprise transformation.</p>
-      <p>I'm now pairing that operating experience with formal training in analytics through Boston University's MS in Applied Business Analytics.</p>
+      <div class="num">01 &nbsp;/&nbsp; BIG DATA &amp; CLOUD ANALYTICS</div>
+      <h2 class="display anchored">Job Market Analytics with Spark SQL on AWS</h2>
+      <div class="meta">AD 688 · Fall 2026</div>
+      <p>Large datasets don't fit in a spreadsheet, and procurement data rarely does either. Working in a cloud environment on AWS, I used Spark SQL to turn a large dataset of real job postings from BU's MET Career Match data into answers about salaries, employers, and hiring trends.</p>
+      <ul>
+        <li>Loaded the partitioned Parquet dataset into Spark on an AWS EC2 instance</li>
+        <li>Designed a relational model of four linked tables (job postings, companies, industries, locations) with primary and foreign keys</li>
+        <li>Wrote Spark SQL joins and aggregations to compare median tech salaries by occupation, rank top remote employers in California, track monthly posting trends, and compare pay across 12 major U.S. metros</li>
+        <li>Visualized results with Plotly and Seaborn and published a reproducible Quarto report through GitHub</li>
+      </ul>
+      <ul class="chips"><li>AWS EC2</li><li>PySpark</li><li>Spark SQL</li><li>Data modeling</li><li>Plotly</li><li>Seaborn</li><li>Quarto</li></ul>
     </div>
-    <div class="dl-card">
-      <div class="eyebrow" style="color:var(--sand)">Download</div>
-      <h3 class="display anchored">Executive Profile</h3>
-      <p>A one-page PDF summary of my career, credentials, and education.</p>
-      <a class="btn-ed" href="files/Alyssa-Q-Executive-Profile.pdf" download=""><i class="bi bi-download"></i>&nbsp; Download PDF</a>
+  </article>
+
+  <article class="project">
+    <div class="project-media">
+      <img src="images/proj-nyjl.svg" alt="Four analyses (meal spend, volunteer impact, partner feedback, partnership health check) feeding better decisions" width="640" height="420" loading="lazy">
     </div>
-  </div>
-</section>
+    <div>
+      <div class="num">02 &nbsp;/&nbsp; LEADERSHIP</div>
+      <h2 class="display anchored">Community Impact Analytics</h2>
+      <div class="meta">New York Junior League · Community Senior Council Head</div>
+      <p>I bring the same analytical discipline I use in procurement to the League's Community area, turning scattered data and feedback into clear decisions.</p>
+      <ul>
+        <li><strong>Meal spend:</strong> analyzed meal purchases and recommended where to order from and when catering makes sense</li>
+        <li><strong>Volunteer impact:</strong> analyzed volunteer hours and activity to give leaders a clearer view of impact</li>
+        <li><strong>Partner feedback:</strong> analyzed community partners' end-of-year feedback and comments to surface themes</li>
+        <li><strong>Partnership health check:</strong> designed a new annual process for committees to evaluate the health of each community partnership, and for the League to assess committee health and synergies</li>
+      </ul>
+      <ul class="chips"><li>Spend analysis</li><li>Text analysis</li><li>Process design</li><li>Stakeholder alignment</li></ul>
+    </div>
+  </article>
+</div>
 
 <section class="section alt">
   <div class="wrap">
-    <div class="eyebrow">Career path</div>
-    <h2 class="section-title display anchored">Where I've worked</h2>
-    <ol class="timeline">
-      <li class="current"><div class="yr">2026 - Present</div><div><div class="co">Ralph Lauren</div><div class="role">Head of Global Indirect Procurement</div></div></li>
-      <li><div class="yr">2023 - 2025</div><div><div class="co">Fanatics</div><div class="role">Vice President, Global Head of Procurement</div></div></li>
-      <li><div class="yr">2018 - 2023</div><div><div class="co">Revlon</div><div class="role">Senior Director, Procurement &amp; Business Transformation · Director, Procurement</div></div></li>
-      <li><div class="yr">2016 - 2018</div><div><div class="co">Tapestry</div><div class="role">Senior Manager, Global Sourcing</div></div></li>
-      <li><div class="yr">2012 - 2016</div><div><div class="co">Starbucks</div><div class="role">Category Manager, Global Merchandise &amp; Emerging Brands · Sourcing Manager</div></div></li>
-      <li><div class="yr">2008 - 2012</div><div><div class="co">Target</div><div class="role">Sourcing Product Manager · Sourcing Business Analyst</div></div></li>
-    </ol>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="eyebrow">Education</div>
-    <h2 class="section-title display anchored">Degrees &amp; credentials</h2>
-    <div class="creds">
-      <div class="cred edu"><div class="t">MS, Applied Business Analytics</div><div class="s">Boston University · in progress</div></div>
-      <div class="cred edu"><div class="t">MBA, with Distinction</div><div class="s">Thunderbird School of Global Management</div></div>
-      <div class="cred edu"><div class="t">BA, International Relations</div><div class="s">Carleton College</div></div>
-    </div>
-    <div class="creds" style="margin-top:1rem">
-      <div class="cred"><div class="t">Certified Professional in Supply Management (CPSM)</div><div class="s">Institute for Supply Management</div></div>
-      <div class="cred"><div class="t">Negotiation Mastery</div><div class="s">Harvard University</div></div>
-      <div class="cred"><div class="t">Executive Leadership</div><div class="s">Cornell University</div></div>
-      <div class="cred"><div class="t">Advanced Project Management (SCPM)</div><div class="s">Stanford University</div></div>
-      <div class="cred"><div class="t">Global CSR &amp; Sustainability</div><div class="s">Thunderbird School of Global Management</div></div>
+    <div class="eyebrow">Coursework</div>
+    <h2 class="section-title display anchored">MS in Applied Business Analytics</h2>
+    <p class="lede">Boston University Metropolitan College</p>
+    <div class="courses">
+      <div class="course"><div class="code">AD 688 · In progress</div><div class="t">Big Data &amp; Cloud Analytics</div>
+        <ul class="chips"><li>PySpark</li><li>Spark SQL</li><li>AWS</li><li>Spark MLlib</li><li>Git</li></ul></div>
+      <div class="course"><div class="code">AD 515 · Summer 2026</div><div class="t">Project Management</div>
+        <ul class="chips"><li>MS Project</li><li>WBS &amp; Gantt</li><li>PERT</li><li>Risk register</li><li>Agile</li></ul></div>
+      <div class="course"><div class="code">AD 599 · Summer 2026</div><div class="t">Python &amp; SQL for Business Analytics</div>
+        <ul class="chips"><li>Python</li><li>SQL</li><li>Relational databases</li></ul></div>
+      <div class="course"><div class="code">AD 571 · Spring 2026</div><div class="t">Business Analytics Foundations</div>
+        <ul class="chips"><li>R</li><li>Power BI</li><li>Predictive analytics</li><li>Prescriptive analytics</li></ul></div>
+      <div class="course"><div class="code">AD 715 · Spring 2026</div><div class="t">Quantitative &amp; Qualitative Decision-Making</div>
+        <ul class="chips"><li>Decision analysis</li><li>Probability</li><li>Business simulation</li></ul></div>
+      <div class="course"><div class="code">AD 632 · Fall 2025</div><div class="t">Financial Concepts</div>
+        <ul class="chips"><li>Financial statements</li><li>Capital budgeting</li><li>Valuation</li></ul></div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap">
-    <div class="eyebrow">Leadership</div>
-    <h2 class="section-title display anchored">In the community</h2>
-    <div class="creds">
-      <div class="cred edu"><div class="t">Community Senior Council Head</div><div class="s">New York Junior League</div></div>
-      <div class="cred edu"><div class="t">Leadership Council Member</div><div class="s">The Pink Agenda</div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section alt">
-  <div class="wrap">
-    <div class="eyebrow">Core competencies</div>
-    <ul class="chips" style="margin-top:1rem">
-      <li>Global Sourcing Strategy</li><li>Category Management</li><li>Supplier Performance</li><li>Procure-to-Pay</li><li>ERP &amp; Procurement Technology</li><li>Cost Management</li><li>M&amp;A Integration</li><li>Risk &amp; Compliance</li><li>Change Management</li><li>ESG &amp; Supplier Diversity</li><li>Python</li><li>SQL &amp; Spark SQL</li><li>AWS</li><li>Data Visualization</li>
-    </ul>
-  </div>
-</section>
+<style>
+.courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.course { background: #fff; border-top: 3px solid var(--camel); padding: 1.4rem 1.5rem .6rem; transition: transform .25s ease, box-shadow .25s ease; }
+.course:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(27,36,51,.45); }
+.course .code { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--camel-dark); font-weight: 600; }
+.course .t { font-family: var(--serif); font-size: 1.45rem; font-weight: 600; line-height: 1.2; margin: .3rem 0 .2rem; }
+.course .chips { margin: .8rem 0; }
+@media (max-width: 900px) { .courses { grid-template-columns: 1fr; } }
+</style>
 
 
 
