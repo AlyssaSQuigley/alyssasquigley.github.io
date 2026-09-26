@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Most requested skills in 19 apparel analytics job postings" font-family="Inter, Helvetica, Arial, sans-serif">
+<rect width="640" height="420" fill="#FAF7F2"/>
+<text x="24" y="34" font-size="17" font-weight="600" fill="#1B2433">What apparel employers ask analysts for</text>
+<text x="24" y="54" font-size="12" fill="#6B7280">Postings mentioning each skill (n = 19, NAICS 458)</text>
+<text x="158" y="90.0" font-size="13" text-anchor="end" fill="#1B2433">Power BI</text>
+<rect x="170" y="70" width="151.1" height="30" rx="3" fill="#22324A"/>
+<text x="329.1" y="90.0" font-size="13" font-weight="600" fill="#1B2433">7</text>
+<text x="158" y="132.0" font-size="13" text-anchor="end" fill="#1B2433">SQL</text>
+<rect x="170" y="112" width="151.1" height="30" rx="3" fill="#22324A"/>
+<text x="329.1" y="132.0" font-size="13" font-weight="600" fill="#1B2433">7</text>
+<text x="158" y="174.0" font-size="13" text-anchor="end" fill="#1B2433">Microsoft Excel</text>
+<rect x="170" y="154" width="107.9" height="30" rx="3" fill="#A8804A"/>
+<text x="285.9" y="174.0" font-size="13" font-weight="600" fill="#1B2433">5</text>
+<text x="158" y="216.0" font-size="13" text-anchor="end" fill="#1B2433">Python</text>
+<rect x="170" y="196" width="107.9" height="30" rx="3" fill="#A8804A"/>
+<text x="285.9" y="216.0" font-size="13" font-weight="600" fill="#1B2433">5</text>
+<text x="158" y="258.0" font-size="13" text-anchor="end" fill="#1B2433">Digital Marketing</text>
+<rect x="170" y="238" width="86.3" height="30" rx="3" fill="#CDBB9C"/>
+<text x="264.3" y="258.0" font-size="13" font-weight="600" fill="#1B2433">4</text>
+<text x="158" y="300.0" font-size="13" text-anchor="end" fill="#1B2433">Data Analysis</text>
+<rect x="170" y="280" width="64.7" height="30" rx="3" fill="#CDBB9C"/>
+<text x="242.7" y="300.0" font-size="13" font-weight="600" fill="#1B2433">3</text>
+<text x="158" y="342.0" font-size="13" text-anchor="end" fill="#1B2433">Stakeholder Mgmt.</text>
+<rect x="170" y="322" width="64.7" height="30" rx="3" fill="#CDBB9C"/>
+<text x="242.7" y="342.0" font-size="13" font-weight="600" fill="#1B2433">3</text>
+<text x="158" y="384.0" font-size="13" text-anchor="end" fill="#1B2433">Project Mgmt.</text>
+<rect x="170" y="364" width="64.7" height="30" rx="3" fill="#CDBB9C"/>
+<text x="242.7" y="384.0" font-size="13" font-weight="600" fill="#1B2433">3</text>
+</svg>
