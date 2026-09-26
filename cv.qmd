@@ -109,7 +109,7 @@ description: "Executive profile: global procurement and strategic sourcing leade
   <div class="wrap">
     <div class="eyebrow">Core competencies</div>
     <ul class="chips" style="margin-top:1rem">
-      <li>Strategic Sourcing</li><li>Indirect Procurement</li><li>Category Management</li><li>Supplier Relationship Management</li><li>Spend Analysis</li><li>Total Cost of Ownership</li><li>P&amp;L Management</li><li>M&amp;A Integration</li><li>Change Management</li><li>Python</li><li>SQL</li><li>Power BI</li>
+      <li>Strategic Sourcing</li><li>Indirect Procurement</li><li>Category Management</li><li>Supplier Relationship Management</li><li>Spend Analysis</li><li>P&amp;L Management</li><li>M&amp;A Integration</li><li>Change Management</li><li>Python</li><li>R</li><li>SQL</li><li>Power BI</li>
     </ul>
   </div>
 </section>
