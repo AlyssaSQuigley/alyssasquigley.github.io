@@ -60,25 +60,56 @@ description: "Executive profile: global procurement and strategic sourcing leade
       <div class="cred"><div class="t">Advanced Project Management (SCPM)</div><div class="s">Stanford University</div></div>
       <div class="cred"><div class="t">Global CSR &amp; Sustainability</div><div class="s">Thunderbird School of Global Management</div></div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="eyebrow">Leadership</div>
-    <h2 class="section-title display">In the community</h2>
-    <div class="creds">
-      <div class="cred edu"><div class="t">Community Senior Council Head</div><div class="s">New York Junior League</div></div>
-      <div class="cred edu"><div class="t">Leadership Council Member</div><div class="s">The Pink Agenda</div></div>
+    <div class="lead-list">
+      <div class="lead-h">Community leadership</div>
+      <div>Community Senior Council Head, New York Junior League</div>
+      <div>Leadership Council Member, The Pink Agenda</div>
     </div>
   </div>
 </section>
 
 <section class="section alt">
   <div class="wrap">
+    <div class="eyebrow">Coursework</div>
+    <h2 class="section-title display">MS in Applied Business Analytics</h2>
+    <p class="lede">Boston University &middot; in progress</p>
+    <div class="courses">
+      <div class="course"><div class="code">AD 632 &middot; Fall 2025</div><div class="t">Financial Concepts</div>
+        <ul class="chips"><li>Financial statements</li><li>Capital budgeting</li><li>Valuation</li></ul></div>
+      <div class="course"><div class="code">AD 571 &middot; Spring 2026</div><div class="t">Business Analytics Foundations</div>
+        <ul class="chips"><li>R</li><li>Power BI</li><li>Predictive analytics</li><li>Prescriptive analytics</li></ul></div>
+      <div class="course"><div class="code">AD 715 &middot; Spring 2026</div><div class="t">Quantitative &amp; Qualitative Decision-Making</div>
+        <ul class="chips"><li>Decision analysis</li><li>Probability</li><li>Business simulation</li></ul></div>
+      <div class="course"><div class="code">AD 515 &middot; Summer 2026</div><div class="t">Project Management</div>
+        <ul class="chips"><li>MS Project</li><li>WBS &amp; Gantt</li><li>PERT</li><li>Risk register</li><li>Agile</li></ul></div>
+      <div class="course"><div class="code">AD 599 &middot; Summer 2026</div><div class="t">Python &amp; SQL for Business Analytics</div>
+        <ul class="chips"><li>Python</li><li>SQL</li><li>Relational databases</li></ul></div>
+      <div class="course"><div class="code">AD 688 &middot; In progress</div><div class="t">Big Data &amp; Cloud Analytics</div>
+        <ul class="chips"><li>PySpark</li><li>Spark SQL</li><li>AWS</li><li>Spark MLlib</li><li>Git</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<style>
+.lead-list { margin-top: 1.75rem; line-height: 1.8; }
+.lead-list .lead-h { font-weight: 600; color: var(--camel-dark); margin-bottom: .2rem; }
+.courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.course { background: #fff; border-top: 3px solid var(--camel); padding: 1.4rem 1.5rem .6rem; transition: transform .25s ease, box-shadow .25s ease; }
+.course:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(27,36,51,.45); }
+.course .code { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--camel-dark); font-weight: 600; }
+.course .t { font-family: var(--serif); font-size: 1.45rem; font-weight: 600; line-height: 1.2; margin: .3rem 0 .2rem; }
+.course .chips { margin: .8rem 0; }
+.project p.wid { margin-bottom: .3rem; }
+@media (max-width: 900px) { .courses { grid-template-columns: 1fr; } }
+</style>
+
+
+
+<section class="section alt">
+  <div class="wrap">
     <div class="eyebrow">Core competencies</div>
     <ul class="chips" style="margin-top:1rem">
-      <li>Strategic Sourcing</li><li>Indirect Procurement</li><li>Category Management</li><li>Supplier Relationship Management</li><li>Vendor Negotiation</li><li>Contract Management</li><li>Spend Analysis</li><li>Total Cost of Ownership</li><li>Procure-to-Pay</li><li>ERP</li><li>P&amp;L Management</li><li>M&amp;A Integration</li><li>Risk Management</li><li>Change Management</li><li>Digital Transformation</li><li>Ethical Sourcing</li><li>Product Development</li><li>Cross-Functional Team Leadership</li><li>Python</li><li>SQL &amp; Spark SQL</li><li>R</li><li>Power BI</li><li>AWS</li><li>Data Visualization</li>
+      <li>Strategic Sourcing</li><li>Indirect Procurement</li><li>Category Management</li><li>Supplier Relationship Management</li><li>Spend Analysis</li><li>Total Cost of Ownership</li><li>P&amp;L Management</li><li>M&amp;A Integration</li><li>Change Management</li><li>Python</li><li>SQL</li><li>Power BI</li>
     </ul>
   </div>
 </section>
