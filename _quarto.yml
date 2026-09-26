@@ -8,6 +8,9 @@ website:
   favicon: images/favicon.svg
   open-graph:
     image: images/headshot.jpg
+  page-footer:
+    left: '&copy; 2026 Alyssa Q.'
+    right: 'Built with Quarto &middot; Hosted on GitHub Pages'
   navbar:
     left:
       - text: About
