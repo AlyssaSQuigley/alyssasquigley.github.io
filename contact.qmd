@@ -1,0 +1,11 @@
+---
+title: "Contact"
+---
+
+I'm always glad to connect with procurement and analytics leaders, fellow BU students, and anyone working on better ways to put data to work.
+
+<i class="bi bi-linkedin"></i> **LinkedIn:** [linkedin.com/in/alyssa-q](https://www.linkedin.com/in/alyssa-q/)
+
+<i class="bi bi-github"></i> **GitHub:** [github.com/AlyssaSQuigley](https://github.com/AlyssaSQuigley)
+
+<i class="bi bi-geo-alt"></i> **Based in:** New York, NY

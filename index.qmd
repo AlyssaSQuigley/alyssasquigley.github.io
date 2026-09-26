@@ -1,9 +1,41 @@
 ---
-title: "Alyssa S Quigley"
+title: "Alyssa Q."
+subtitle: "Global Procurement Leader | Building the Analytics Edge"
+image: images/headshot.jpg
+about:
+  template: trestles
+  image-width: 16em
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/alyssa-q/
+    - icon: github
+      text: GitHub
+      href: https://github.com/AlyssaSQuigley
+    - icon: file-earmark-person
+      text: CV
+      href: cv.qmd
 ---
 
-This is a Quarto website.
+## Where procurement strategy meets analytics
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm Alyssa, a global procurement leader who has built and scaled sourcing organizations across retail, consumer, and digital commerce brands. Today I lead Global Indirect Procurement at Ralph Lauren, and I'm earning an MS in Applied Business Analytics at Boston University to bring sharper data to the decisions procurement makes every day.
 
-![](./images/unnamed.jpg){width="75%" fig-align="center"}
+## Why analytics, why now
+
+Procurement sits on some of the richest data in any company: every supplier, every contract, every dollar that leaves the building. Yet analytics is one of the least invested-in capabilities in the function. As supply-chain volatility, cost pressure, and AI change how fast organizations need to act, I went back to school to build the technical foundation (SQL, Spark, cloud platforms, and data visualization) to lead that shift.
+
+## What I bring
+
+- **Strategic Sourcing** - category strategy, supplier negotiation, and vendor performance
+- **Enterprise Transformation** - building procurement functions, procure-to-pay and ERP rollouts, M&A integration
+- **Analytics & Insight** - spend visibility, KPI dashboards, and hands-on Python, SQL, and Spark
+
+## Career goals
+
+I want to lead procurement organizations where analytics is a core capability, not an afterthought: predictive spend insight, early supplier-risk signals, and decision tools that help teams move faster with confidence.
+
+## Beyond the office
+
+I serve as Senior Community Council Head with the New York Junior League, where I'm redesigning how the League captures and reports volunteer impact.

@@ -2,20 +2,24 @@ project:
   type: website
 
 website:
-  title: "Alyssa S Quigley"
+  title: "Alyssa Q."
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: About
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alyssa-q/
+      - icon: github
+        href: https://github.com/AlyssaSQuigley
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
