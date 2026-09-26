@@ -23,7 +23,7 @@ description: "Executive profile: global procurement and strategic sourcing leade
     <div class="dl-card">
       <div class="eyebrow" style="color:var(--sand)">Download</div>
       <h3 class="display">Executive Profile</h3>
-      <p>A one-page PDF summary of my career, credentials, and education.</p>
+      <p>A one-page summary of my career, credentials, and education.</p>
       <a class="btn-ed" href="files/Alyssa-Q-Executive-Profile.pdf" download><i class="bi bi-download"></i>&nbsp; Download PDF</a>
     </div>
   </div>
