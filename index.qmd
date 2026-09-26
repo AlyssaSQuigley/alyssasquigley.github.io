@@ -26,7 +26,7 @@ description: "Global procurement leader building the analytics edge. MS in Appli
   <div class="wrap">
     <div class="stats">
       <div class="stat"><div class="num">$2B</div><div class="lbl">Annual spend led</div></div>
-      <div class="stat"><div class="num">$100M+</div><div class="lbl">Cost savings delivered</div></div>
+      <div class="stat"><div class="num">$250M+</div><div class="lbl">Cost savings delivered</div></div>
       <div class="stat"><div class="num">6</div><div class="lbl">Global consumer brands</div></div>
     </div>
   </div>

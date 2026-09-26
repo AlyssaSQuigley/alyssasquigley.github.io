@@ -203,3 +203,17 @@ h2.section-title { font-size: clamp(1.7rem, 2.8vw, 2.2rem); }
 .stat .num { font-size: 2.1rem; }
 .section { padding: 3.25rem 0; }
 .page-head { padding: 2.5rem 0 1.5rem; } .page-head h1 { font-size: clamp(2.2rem, 3.6vw, 3rem); }
+@media (max-width: 900px) {
+.hero { padding: 1.5rem 0 2rem; }
+.hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+.hero-photo { order: -1; max-width: 240px; justify-self: start; }
+.hero h1 { font-size: 2.3rem; }
+.eyebrow { letter-spacing: .14em; }
+}
+@media (max-width: 900px) {
+.stats { grid-template-columns: 1fr; }
+.stat { border-right: none; border-bottom: 1px solid var(--sand); padding: 1.1rem .5rem; }
+.stat:last-child { border-bottom: none; }
+.brands span { font-size: 1.25rem; }
+.btn-ed { display: block; text-align: center; margin: .5rem 0; }
+}

@@ -37,6 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -77,6 +78,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="CV | Alyssa Q.">
+<meta property="og:description" content="Executive profile: global procurement and strategic sourcing leader.">
+<meta property="og:image" content="https://alyssasquigley.github.io/images/headshot.jpg">
+<meta property="og:site_name" content="Alyssa Q.">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -101,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -223,6 +228,60 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<!-- Pizazz: count-up numbers, scroll fade-ins, card hover lift -->
+<style>
+  .reveal-on .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal-on .reveal.in { opacity: 1; transform: none; }
+  .pillar, .cred, .c-card, .dl-card, .project-media img { transition: transform .25s ease, box-shadow .25s ease; }
+  .pillar:hover, .cred:hover, .c-card:hover, .dl-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(27,36,51,.45); }
+  .brands span { transition: color .2s ease; }
+  .brands span:hover { color: var(--camel); }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal-on .reveal { opacity: 1; transform: none; transition: none; }
+    .pillar:hover, .cred:hover, .c-card:hover, .dl-card:hover { transform: none; }
+  }
+</style>
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!("IntersectionObserver" in window)) return;
+
+  // 1) Fade sections in as they scroll into view
+  if (!reduce) {
+    document.documentElement.classList.add("reveal-on");
+    var items = document.querySelectorAll(".section .wrap, .stats, .page-head .wrap, .project");
+    var ro = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("in"); ro.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { el.classList.add("reveal"); ro.observe(el); });
+  }
+
+  // 2) Count numbers up from zero, e.g. "$250M+", "2,500+", "25"
+  var nums = document.querySelectorAll(".stat .num");
+  var co = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el = e.target, text = el.textContent.trim();
+      var m = text.match(/^([^0-9]*)([0-9][0-9,]*)(.*)$/);
+      if (!m || reduce) return;
+      var pre = m[1], end = parseInt(m[2].replace(/,/g, ""), 10), post = m[3];
+      var start = null, dur = 1400;
+      function step(t) {
+        if (!start) start = t;
+        var p = Math.min((t - start) / dur, 1);
+        var v = Math.round(end * (1 - Math.pow(1 - p, 3)));
+        el.textContent = pre + v.toLocaleString("en-US") + post;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }, { threshold: 0.6 });
+  nums.forEach(function (n) { co.observe(n); });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -296,7 +355,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/alyssasquigley\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

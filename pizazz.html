@@ -1,0 +1,54 @@
+<!-- Pizazz: count-up numbers, scroll fade-ins, card hover lift -->
+<style>
+  .reveal-on .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal-on .reveal.in { opacity: 1; transform: none; }
+  .pillar, .cred, .c-card, .dl-card, .project-media img { transition: transform .25s ease, box-shadow .25s ease; }
+  .pillar:hover, .cred:hover, .c-card:hover, .dl-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(27,36,51,.45); }
+  .brands span { transition: color .2s ease; }
+  .brands span:hover { color: var(--camel); }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal-on .reveal { opacity: 1; transform: none; transition: none; }
+    .pillar:hover, .cred:hover, .c-card:hover, .dl-card:hover { transform: none; }
+  }
+</style>
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!("IntersectionObserver" in window)) return;
+
+  // 1) Fade sections in as they scroll into view
+  if (!reduce) {
+    document.documentElement.classList.add("reveal-on");
+    var items = document.querySelectorAll(".section .wrap, .stats, .page-head .wrap, .project");
+    var ro = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("in"); ro.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { el.classList.add("reveal"); ro.observe(el); });
+  }
+
+  // 2) Count numbers up from zero, e.g. "$250M+", "2,500+", "25"
+  var nums = document.querySelectorAll(".stat .num");
+  var co = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el = e.target, text = el.textContent.trim();
+      var m = text.match(/^([^0-9]*)([0-9][0-9,]*)(.*)$/);
+      if (!m || reduce) return;
+      var pre = m[1], end = parseInt(m[2].replace(/,/g, ""), 10), post = m[3];
+      var start = null, dur = 1400;
+      function step(t) {
+        if (!start) start = t;
+        var p = Math.min((t - start) / dur, 1);
+        var v = Math.round(end * (1 - Math.pow(1 - p, 3)));
+        el.textContent = pre + v.toLocaleString("en-US") + post;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }, { threshold: 0.6 });
+  nums.forEach(function (n) { co.observe(n); });
+})();
+</script>

@@ -1,0 +1,86 @@
+---
+pagetitle: "Projects | Alyssa Q."
+page-layout: full
+---
+
+```{=html}
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Selected work</div>
+    <h1 class="display">Projects</h1>
+    <p class="lede narrow">Hands-on analytics work from my MS in Applied Business Analytics at Boston University, where most projects are team-based, plus analytics I lead as a volunteer leader in my community.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <article class="project">
+    <div class="project-media">
+      <img src="images/proj-spark.svg" alt="Pipeline: job postings data processed on AWS with Spark SQL and published as a Quarto report" width="640" height="420" loading="lazy">
+    </div>
+    <div>
+      <div class="num">01 &nbsp;/&nbsp; BIG DATA &amp; CLOUD ANALYTICS</div>
+      <h2 class="display">Job Market Analytics with Spark SQL on AWS</h2>
+      <div class="meta">AD 688 &middot; Fall 2026</div>
+      <p>Large datasets don't fit in a spreadsheet, and procurement data rarely does either. Working in a cloud environment on AWS, I used Spark SQL to turn a large dataset of real job postings from BU's MET Career Match data into answers about salaries, employers, and hiring trends.</p>
+      <ul>
+        <li>Loaded the partitioned Parquet dataset into Spark on an AWS EC2 instance</li>
+        <li>Designed a relational model of four linked tables (job postings, companies, industries, locations) with primary and foreign keys</li>
+        <li>Wrote Spark SQL joins and aggregations to compare median tech salaries by occupation, rank top remote employers in California, track monthly posting trends, and compare pay across 12 major U.S. metros</li>
+        <li>Visualized results with Plotly and Seaborn and published a reproducible Quarto report through GitHub</li>
+      </ul>
+      <ul class="chips"><li>AWS EC2</li><li>PySpark</li><li>Spark SQL</li><li>Data modeling</li><li>Plotly</li><li>Seaborn</li><li>Quarto</li></ul>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="project-media">
+      <img src="images/proj-nyjl.svg" alt="Four analyses (meal spend, volunteer impact, partner feedback, partnership health check) feeding better decisions" width="640" height="420" loading="lazy">
+    </div>
+    <div>
+      <div class="num">02 &nbsp;/&nbsp; LEADERSHIP</div>
+      <h2 class="display">Community Impact Analytics</h2>
+      <div class="meta">New York Junior League &middot; Community Senior Council Head</div>
+      <p>I bring the same analytical discipline I use in procurement to the League's Community area, turning scattered data and feedback into clear decisions.</p>
+      <ul>
+        <li><strong>Meal spend:</strong> analyzed meal purchases and recommended where to order from and when catering makes sense</li>
+        <li><strong>Volunteer impact:</strong> analyzed volunteer hours and activity to give leaders a clearer view of impact</li>
+        <li><strong>Partner feedback:</strong> analyzed community partners' end-of-year feedback and comments to surface themes</li>
+        <li><strong>Partnership health check:</strong> designed a new annual process for committees to evaluate the health of each community partnership, and for the League to assess committee health and synergies</li>
+      </ul>
+      <ul class="chips"><li>Spend analysis</li><li>Text analysis</li><li>Process design</li><li>Stakeholder alignment</li></ul>
+    </div>
+  </article>
+</div>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="eyebrow">Coursework</div>
+    <h2 class="section-title display">MS in Applied Business Analytics</h2>
+    <p class="lede">Boston University Metropolitan College</p>
+    <div class="courses">
+      <div class="course"><div class="code">AD 688 &middot; In progress</div><div class="t">Big Data &amp; Cloud Analytics</div>
+        <ul class="chips"><li>PySpark</li><li>Spark SQL</li><li>AWS</li><li>Spark MLlib</li><li>Git</li></ul></div>
+      <div class="course"><div class="code">AD 515 &middot; Summer 2026</div><div class="t">Project Management</div>
+        <ul class="chips"><li>MS Project</li><li>WBS &amp; Gantt</li><li>PERT</li><li>Risk register</li><li>Agile</li></ul></div>
+      <div class="course"><div class="code">AD 599 &middot; Summer 2026</div><div class="t">Python &amp; SQL for Business Analytics</div>
+        <ul class="chips"><li>Python</li><li>SQL</li><li>Relational databases</li></ul></div>
+      <div class="course"><div class="code">AD 571 &middot; Spring 2026</div><div class="t">Business Analytics Foundations</div>
+        <ul class="chips"><li>R</li><li>Power BI</li><li>Predictive analytics</li><li>Prescriptive analytics</li></ul></div>
+      <div class="course"><div class="code">AD 715 &middot; Spring 2026</div><div class="t">Quantitative &amp; Qualitative Decision-Making</div>
+        <ul class="chips"><li>Decision analysis</li><li>Probability</li><li>Business simulation</li></ul></div>
+      <div class="course"><div class="code">AD 632 &middot; Fall 2025</div><div class="t">Financial Concepts</div>
+        <ul class="chips"><li>Financial statements</li><li>Capital budgeting</li><li>Valuation</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<style>
+.courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.course { background: #fff; border-top: 3px solid var(--camel); padding: 1.4rem 1.5rem .6rem; transition: transform .25s ease, box-shadow .25s ease; }
+.course:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(27,36,51,.45); }
+.course .code { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--camel-dark); font-weight: 600; }
+.course .t { font-family: var(--serif); font-size: 1.45rem; font-weight: 600; line-height: 1.2; margin: .3rem 0 .2rem; }
+.course .chips { margin: .8rem 0; }
+@media (max-width: 900px) { .courses { grid-template-columns: 1fr; } }
+</style>
+```

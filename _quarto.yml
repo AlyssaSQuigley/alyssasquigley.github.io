@@ -3,6 +3,11 @@ project:
 
 website:
   title: "Alyssa Q."
+  description: "Global procurement leader building the analytics edge."
+  site-url: "https://alyssasquigley.github.io"
+  favicon: images/favicon.svg
+  open-graph:
+    image: images/headshot.jpg
   navbar:
     left:
       - text: About
@@ -23,3 +28,4 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: pizazz.html
