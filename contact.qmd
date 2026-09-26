@@ -6,7 +6,7 @@ page-layout: full
 <section class="page-head"><div class="wrap">
 <div class="eyebrow">Contact</div>
 <h1 class="display">Let's talk.</h1>
-<p class="lede narrow">I'm always glad to connect with
+<p class="lede narrow">I'm always happy to connect with
 procurement and analytics leaders, fellow BU students,
 and anyone working on better ways to put data to work.</p>
 </div></section>
