@@ -6,12 +6,9 @@ Personal portfolio website for AD 688 Big Data & Cloud Analytics for Business (B
 
 ## Pages
 - **About:** background, point of view on procurement and analytics, career goals, and community leadership
-- **Projects:** job market analysis with Spark SQL on AWS, a team career evaluation project, community impact analytics, and an interactive procurement Total Cost of Ownership calculator
+- **Projects:** six projects from graduate studies and community leadership (investment analysis, SQL and Python sales analysis, a five-part market entry analysis, a team career evaluation, a volunteer impact dashboard, and a meal spend analysis), plus an interactive procurement Total Cost of Ownership calculator
 - **CV:** career timeline, education, coursework, and a downloadable PDF profile
 - **Contact:** LinkedIn and GitHub
 
 ## Built with
-Quarto, HTML/CSS, JavaScript (calculator and animations), and GitHub Pages with GitHub Actions for automatic deployment.
-
-## Run locally
-`quarto preview`
+Quarto, HTML/CSS, JavaScript (calculator, project pop-ups and animations), and GitHub Pages with GitHub Actions for automatic deployment.
