@@ -1,22 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Illustration: menu price plus fees plus tips adds up to the true cost of a meal order. No real data." font-family="Inter, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Menu price plus fees plus tip equals the true cost of a meal order. Three ways to order are compared: standard delivery, catering option and catering platform." font-family="Inter, Helvetica, Arial, sans-serif">
 <rect width="640" height="360" fill="#FAF7F2"/>
 <text x="32" y="52" font-size="12" font-weight="600" letter-spacing="2" fill="#8A6A3B">THE TRUE COST OF A MEAL ORDER</text>
-<g font-size="15" font-weight="600" fill="#1B2433">
- <rect x="32" y="84" width="300" height="56" rx="6" fill="#22324A"/><text x="50" y="118" fill="#FAF7F2">Menu price</text>
- <rect x="340" y="84" width="72" height="56" rx="6" fill="#A8804A"/>
- <rect x="420" y="84" width="54" height="56" rx="6" fill="#C9A46A"/>
- <rect x="482" y="84" width="40" height="56" rx="6" fill="#CDBB9C"/>
- <rect x="530" y="84" width="16" height="56" rx="4" fill="#E6DFD3"/>
+<g font-size="15" font-weight="600" text-anchor="middle">
+ <rect x="32" y="80" width="190" height="60" rx="6" fill="#22324A"/><text x="127" y="115" fill="#FAF7F2">Menu price</text>
+ <rect x="252" y="80" width="110" height="60" rx="6" fill="#A8804A"/><text x="307" y="115" fill="#FFFFFF">Fees</text>
+ <rect x="392" y="80" width="90" height="60" rx="6" fill="#CDBB9C"/><text x="437" y="115" fill="#1B2433">Tip</text>
+ <rect x="512" y="80" width="96" height="60" rx="6" fill="#FFFFFF" stroke="#A8804A" stroke-width="2"/><text x="560" y="115" fill="#1B2433">True cost</text>
 </g>
-<g font-size="12" fill="#5B6472">
- <text x="340" y="162">Tips</text><text x="420" y="162">App fee</text><text x="482" y="162">Other</text>
-</g>
-<line x1="32" y1="196" x2="546" y2="196" stroke="#CDBB9C"/>
-<text x="32" y="230" font-size="15" font-weight="600" fill="#1B2433">The question: which way to order costs less?</text>
+<g font-size="22" font-weight="600" fill="#8A6A3B" text-anchor="middle"><text x="237" y="118">+</text><text x="377" y="118">+</text><text x="497" y="118">=</text></g>
+<line x1="32" y1="180" x2="608" y2="180" stroke="#CDBB9C"/>
+<text x="32" y="218" font-size="15" font-weight="600" fill="#1B2433">The question: which way to order costs less?</text>
 <g font-size="13" fill="#1B2433">
- <rect x="32" y="252" width="168" height="64" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="48" y="280" font-weight="600">Standard delivery</text><text x="48" y="300" fill="#5B6472" font-size="12">small orders</text>
- <rect x="212" y="252" width="168" height="64" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="228" y="280" font-weight="600">Catering option</text><text x="228" y="300" fill="#5B6472" font-size="12">large group orders</text>
- <rect x="392" y="252" width="168" height="64" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="408" y="280" font-weight="600">Catering platform</text><text x="408" y="300" fill="#5B6472" font-size="12">events and planning</text>
+ <rect x="32" y="240" width="180" height="70" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="48" y="270" font-weight="600">Standard delivery</text><text x="48" y="291" fill="#5B6472" font-size="12">small orders</text>
+ <rect x="230" y="240" width="180" height="70" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="246" y="270" font-weight="600">Catering option</text><text x="246" y="291" fill="#5B6472" font-size="12">large group orders</text>
+ <rect x="428" y="240" width="180" height="70" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/><text x="444" y="270" font-weight="600">Catering platform</text><text x="444" y="291" fill="#5B6472" font-size="12">events and planning</text>
 </g>
-<text x="32" y="344" font-size="10" fill="#5B6472">Illustrative · no real data</text>
 </svg>
