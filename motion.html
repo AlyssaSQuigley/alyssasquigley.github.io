@@ -1,0 +1,54 @@
+<!-- Motion: typing eyebrow + faint network behind the hero -->
+<style>
+  .hero { position: relative; overflow: hidden; }
+  .hero .wrap { position: relative; z-index: 1; }
+  #hero-net { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+  .type-caret { display: inline-block; width: 2px; height: 1em; margin-left: 3px; background: var(--camel); vertical-align: -2px; animation: caret 1s steps(1) infinite; }
+  @keyframes caret { 50% { opacity: 0; } }
+</style>
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var hero = document.querySelector(".hero");
+  if (!hero || reduce) return;
+  var eb = hero.querySelector(".eyebrow");
+  if (eb) {
+    var phrases = ["Procurement \u00b7 Strategy \u00b7 Analytics", "Global sourcing leader", "Building the analytics edge"];
+    var span = document.createElement("span"), caret = document.createElement("span");
+    caret.className = "type-caret"; eb.textContent = ""; eb.appendChild(span); eb.appendChild(caret);
+    var p = 0, i = 0, del = false;
+    (function tick() {
+      var t = phrases[p];
+      span.textContent = t.slice(0, i);
+      if (!del && i < t.length) { i++; setTimeout(tick, 55); }
+      else if (!del) { del = true; setTimeout(tick, 2200); }
+      else if (i > 0) { i--; setTimeout(tick, 25); }
+      else { del = false; p = (p + 1) % phrases.length; setTimeout(tick, 400); }
+    })();
+  }
+  var c = document.createElement("canvas"); c.id = "hero-net"; hero.insertBefore(c, hero.firstChild);
+  var ctx = c.getContext("2d"), pts = [], W = 0, H = 0, dpr = window.devicePixelRatio || 1;
+  var color = getComputedStyle(document.documentElement).getPropertyValue("--camel").trim() || "#A8804A";
+  function size() {
+    W = hero.clientWidth; H = hero.clientHeight;
+    c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = W < 700 ? 22 : 48; pts = [];
+    for (var k = 0; k < n; k++) pts.push({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25 });
+  }
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    ctx.strokeStyle = color; ctx.fillStyle = color;
+    for (var a = 0; a < pts.length; a++) {
+      var q = pts[a]; q.x += q.vx; q.y += q.vy;
+      if (q.x < 0 || q.x > W) q.vx *= -1; if (q.y < 0 || q.y > H) q.vy *= -1;
+      ctx.globalAlpha = .35; ctx.beginPath(); ctx.arc(q.x, q.y, 1.6, 0, 6.283); ctx.fill();
+      for (var b = a + 1; b < pts.length; b++) {
+        var r = pts[b], d = Math.hypot(q.x - r.x, q.y - r.y);
+        if (d < 150) { ctx.globalAlpha = .18 * (1 - d / 150); ctx.beginPath(); ctx.moveTo(q.x, q.y); ctx.lineTo(r.x, r.y); ctx.stroke(); }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  size(); window.addEventListener("resize", size); draw();
+})();
+</script>

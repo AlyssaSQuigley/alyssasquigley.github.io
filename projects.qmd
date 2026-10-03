@@ -8,85 +8,196 @@ page-layout: full
   <div class="wrap">
     <div class="eyebrow">Selected work</div>
     <h1 class="display">Projects</h1>
-    <p class="lede narrow">Selected analytics projects from my graduate studies and community work.</p>
-    <nav class="jump">
-      <a href="#job-market">Job Market Analysis</a>
-      <a href="#fashion-apparel">Fashion &amp; Apparel</a>
-      <a href="#community-impact">Community Impact</a>
-      <a href="#tco">TCO Calculator</a>
-    </nav>
+    <p class="lede">From my graduate studies, community leadership and work in procurement.</p>
   </div>
 </section>
 
 <div class="wrap">
-  <article class="project" id="job-market">
-    <div class="project-media">
-      <img src="images/proj-spark.svg" alt="Pipeline: job postings data processed on AWS with Spark SQL and published as a Quarto report" width="640" height="420" loading="lazy">
-    </div>
-    <div>
-      <div class="num">01 &nbsp;/&nbsp; BIG DATA &amp; CLOUD ANALYTICS</div>
-      <h2 class="display">Job Market Analysis</h2>
-      <div class="meta">AD 688 &middot; Fall 2026</div>
-      <p><strong>Context:</strong> Individual assignment for AD 688 Big Data &amp; Cloud Analytics, analyzing a large dataset of job postings from BU's MET Career Match data in a cloud environment on AWS.</p>
-      <p class="wid"><strong>What I did:</strong></p>
-      <ul>
-        <li>Loaded the partitioned Parquet dataset into Spark on an AWS EC2 instance</li>
-        <li>Designed a relational model of four linked tables (job postings, companies, industries, locations) with primary and foreign keys</li>
-        <li>Wrote Spark SQL joins and aggregations to compare median tech salaries by occupation, rank top remote employers in California, track monthly posting trends, and compare pay across 12 major U.S. metros</li>
-        <li>Visualized results with Plotly and Seaborn and published a Quarto report through GitHub</li>
-      </ul>
-      <ul class="chips"><li>AWS EC2</li><li>PySpark</li><li>Spark SQL</li><li>Data modeling</li><li>Plotly</li><li>Seaborn</li><li>Quarto</li></ul>
-    </div>
-  </article>
-
-  <article class="project" id="fashion-apparel">
-    <div class="project-media">
-      <img src="images/proj-skills.svg" alt="Bar chart: Power BI and SQL each appear in 7 of 19 apparel analytics job postings; Excel and Python in 5" width="640" height="420" loading="lazy">
-    </div>
-    <div>
-      <div class="num">02 &nbsp;/&nbsp; TEAM PROJECT <span class="status">In progress</span></div>
-      <h2 class="display">Fashion &amp; Apparel Career Evaluation</h2>
-      <div class="meta">AD 688 &middot; Group 7 &middot; Team of 4</div>
-      <p><strong>Context:</strong> Team project for AD 688 evaluating business and data analyst roles at apparel and fashion employers (NAICS 458) and comparing employer skill requirements with our team's skills.</p>
-      <p class="wid"><strong>What I did:</strong></p>
-      <ul>
-        <li>Led research and built the filtered industry dataset the team uses for analysis</li>
-        <li>Cleaned and standardized core variables: salary, experience, location, and work arrangement</li>
-        <li>Early finding: <strong>Power BI and SQL</strong> are the most requested skills, each appearing in 7 of 19 postings</li>
-      </ul>
-      <ul class="chips"><li>Python</li><li>pandas</li><li>Plotly</li><li>Quarto</li><li>GitHub</li></ul>
-      <a class="btn-ed solid" href="https://zechnschweitzer.github.io/ad688-fashion-apparel-evaluation-group7/" target="_blank" rel="noopener">View project site</a>
-    </div>
-  </article>
-
-  <article class="project" id="community-impact">
-    <div class="project-media">
-      <img src="images/proj-nyjl.svg" alt="Four analyses (meal spend, volunteer impact, partner feedback, partnership health check) feeding better decisions" width="640" height="420" loading="lazy">
-    </div>
-    <div>
-      <div class="num">03 &nbsp;/&nbsp; LEADERSHIP</div>
-      <h2 class="display">Community Impact Analytics</h2>
-      <div class="meta">New York Junior League &middot; Community Senior Council Head</div>
-      <p><strong>Context:</strong> Analytics I lead as Community Senior Council Head at the New York Junior League to inform decisions about spending, volunteers, and community partnerships.</p>
-      <p class="wid"><strong>What I did:</strong></p>
-      <ul>
-        <li><strong>Meal spend:</strong> analyzed meal purchases and recommended where to order from and when catering makes sense</li>
-        <li><strong>Volunteer impact:</strong> analyzed volunteer hours and activity to give leaders a clearer view of impact</li>
-        <li><strong>Partner feedback:</strong> analyzed community partners' end-of-year feedback and comments to surface themes</li>
-        <li><strong>Partnership health check:</strong> designed a new annual process for committees to evaluate the health of each community partnership, and for the League to assess committee health and synergies</li>
-      </ul>
-      <ul class="chips"><li>Spend analysis</li><li>Text analysis</li><li>Process design</li><li>Stakeholder alignment</li></ul>
-    </div>
-  </article>
+  <div class="pgrid">
+    <article class="pcard" id="bucka-brew">
+      <div class="pcard-img"><img src="images/proj-buckabrew.jpg" alt="Simulation of 10,000 scenarios showing a profit floor of $2.05M and a median of $2.44M" loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">01 &nbsp;/&nbsp; DECISION ANALYSIS</div>
+        <h2 class="display">Bucka-Brew Investment Analysis</h2>
+        <div class="meta">AD 715 &middot; Spring 2026 &middot; Team project</div>
+        <p class="pcard-key">98% chance of at least $2.05M in profit over three years</p>
+        <ul class="chips"><li>Financial modeling</li><li>Monte Carlo simulation</li><li>What-if analysis</li><li>Correlation analysis</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> A restaurant on Rainey Street in Austin asked whether to invest $175,000 in its own microbrewery.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Built a 36-month financial model covering pricing, production and costs</li>
+            <li>Tested buying versus renting brewing tanks. Buying 10 tanks came out about $24K ahead.</li>
+            <li>Ran 10,000 simulations to stress-test profit against changing demand</li>
+          </ul>
+          <p><strong>Result:</strong> Recommended the investment. It pays back in 9 months, with a 98% chance of at least $2.05M in profit over three years.</p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="northwind">
+      <div class="pcard-img"><img src="images/proj-northwind.jpg" alt="Bar chart: the top product's share of category sales, from 57.8% in Beverages to 15.8% in Condiments" loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">02 &nbsp;/&nbsp; SQL &amp; PYTHON</div>
+        <h2 class="display">Northwind Traders Sales Analysis</h2>
+        <div class="meta">AD 599 &middot; Summer 2026 &middot; Team project</div>
+        <p class="pcard-key">One product drives 57.8% of Beverages revenue</p>
+        <ul class="chips"><li>SQL</li><li>Window functions</li><li>Python</li><li>pandas</li><li>SQLite</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> Our team analyzed a sales database for a fictional food distributor to find what drives revenue.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Owned the product category analysis</li>
+            <li>Ranked products within each category using SQL window functions, then ran the queries in Python</li>
+            <li>Measured how much of each category's revenue comes from its top product</li>
+          </ul>
+          <p><strong>Result:</strong> One product drives 57.8% of Beverages revenue, while Condiments is the most balanced at 15.8%. Categories that depend on one product carry more supply risk.</p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="riverdale">
+      <div class="pcard-img"><img src="images/proj-riverdale.jpg" alt="Line chart: Riverdale price per square foot from 2021 to 2025, reaching $514.70 in 2025" loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">03 &nbsp;/&nbsp; BUSINESS ANALYTICS</div>
+        <h2 class="display">Riverdale Market Entry Strategy</h2>
+        <div class="meta">AD 571 &middot; Spring 2026 &middot; Individual &middot; 5-part analysis</div>
+        <p class="pcard-key">An optimized entry plan with up to $773K in NPV and a $63K floor in a downturn</p>
+        <ul class="chips"><li>Power BI</li><li>R</li><li>Clustering</li><li>Forecasting</li><li>Optimization</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> A five-part analysis of whether a real estate firm should expand into Riverdale in the Bronx.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Found prices at a five-year high of $514.70 per square foot (Power BI)</li>
+            <li>Found prices are highly volatile (CV of 2.52), with few mid-market homes (R)</li>
+            <li>Forecast about $63M in sales per quarter and showed that size, not age or season, drives price</li>
+            <li>Built an optimization model to set the commission rate and staffing</li>
+          </ul>
+          <p><strong>Result:</strong> Recommended entering lean with no new hires. That protects a $63K profit floor and keeps up to $773K in upside.</p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="fashion-apparel">
+      <div class="pcard-img"><img src="images/proj-skills.svg" alt="Bar chart: Power BI and SQL each appear in 7 of 19 apparel analytics job postings; Excel and Python in 5" loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">04 &nbsp;/&nbsp; TEAM PROJECT <span class="status">In progress</span></div>
+        <h2 class="display">Fashion &amp; Apparel Career Evaluation</h2>
+        <div class="meta">AD 688 &middot; Fall 2026 &middot; Team project</div>
+        <p class="pcard-key">Power BI and SQL are the most requested skills (7 of 19 postings)</p>
+        <ul class="chips"><li>Python</li><li>pandas</li><li>Plotly</li><li>Quarto</li><li>GitHub</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> Our team is building a research site on business and data analyst roles at apparel and fashion employers.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Built the filtered industry dataset the team uses</li>
+            <li>Cleaned the salary, experience, location and work-arrangement fields</li>
+          </ul>
+          <p><strong>Early finding:</strong> Power BI and SQL are the most requested skills, each in 7 of 19 postings.</p>
+          <p><a class="card-link" href="https://zechnschweitzer.github.io/ad688-fashion-apparel-evaluation-group7/" target="_blank" rel="noopener">View project site</a></p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="volunteer-dashboard">
+      <div class="pcard-img"><img src="images/proj-volunteer.svg" alt="Illustrative dashboard layout with KPI tiles, a monthly trend, and hours by council. No real data." loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">05 &nbsp;/&nbsp; NONPROFIT LEADERSHIP</div>
+        <h2 class="display">Community Volunteer Impact Dashboard</h2>
+        <div class="meta">New York Junior League</div>
+        <p class="pcard-key">One view of volunteer hours, events and reporting across 25 committees</p>
+        <ul class="chips"><li>Data visualization</li><li>KPI design</li><li>Survey analysis</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> Each committee reported volunteer hours differently, so leaders had no single view of impact.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Built one dashboard of member volunteer hours and events across 25 committees</li>
+            <li>Split direct service hours from meetings and prep</li>
+            <li>Tracked which committees submitted monthly reports and which needed follow-up</li>
+            <li>Summarized community partner survey feedback across three survey cycles</li>
+          </ul>
+          <p><strong>Result:</strong> Council leaders can see where volunteer time goes and act on reporting gaps each month.</p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="meal-spend">
+      <div class="pcard-img"><img src="images/proj-meals.svg" alt="Illustration: menu price plus tips, app fees and other fees make up the true cost of a meal order. No real data." loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">06 &nbsp;/&nbsp; PROCUREMENT ANALYTICS</div>
+        <h2 class="display">Meal Spend Analysis</h2>
+        <div class="meta">New York Junior League</div>
+        <p class="pcard-key">Created order-size rules for meal ordering and confirmed the best delivery provider</p>
+        <ul class="chips"><li>Spend analysis</li><li>Fee analysis</li><li>Vendor strategy</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> Committee meal costs were rising, and the League wanted to know if it was ordering the right way.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Analyzed a year of committee meal orders by size, fees and ordering method</li>
+            <li>Confirmed our current delivery provider was still the lowest-fee option</li>
+            <li>Found the catering option for large orders was rarely used</li>
+            <li>Created order-size cutoffs from the analysis that tell committees when to use standard delivery, catering or a catering platform</li>
+          </ul>
+          <p><strong>Result:</strong> The cutoffs became meal-ordering guidance for all committee co-chairs.</p>
+        </details>
+      </div>
+    </article>
+  </div>
 </div>
+
+<style>
+.pcard { cursor: pointer; }
+.pcard details { display: none; }
+.pcard .more { margin-top: auto; padding-top: .8rem; border-top: 1px solid var(--stone); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--navy); }
+.pcard:hover .more { color: var(--camel); }
+.pcard-img { pointer-events: none; }
+dialog.pmodal { border: none; padding: 0; width: min(880px, 94vw); max-height: 90vh; background: var(--ivory); color: var(--ink); box-shadow: 0 30px 80px -20px rgba(27,36,51,.6); }
+dialog.pmodal::backdrop { background: rgba(27,36,51,.55); }
+.pmodal-inner { padding: 1.75rem 2rem 2rem; overflow-y: auto; max-height: 90vh; }
+.pmodal-close { position: sticky; top: 0; float: right; border: none; background: var(--ink); color: var(--ivory); width: 36px; height: 36px; font-size: 1.2rem; cursor: pointer; }
+.pmodal img { width: 100%; max-height: 420px; object-fit: contain; background: #fff; border: 1px solid var(--stone); margin: 1rem 0 1.25rem; }
+.pmodal h2 { font-size: 2rem; margin: .3rem 0 .2rem; border: none; }
+.pmodal .num { font-size: .72rem; font-weight: 600; letter-spacing: .16em; color: var(--camel-dark); }
+.pmodal .meta { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.pmodal p, .pmodal li { font-size: .98rem; }
+.pmodal ul.chips { margin-top: 1rem; }
+@media (max-width: 640px) { .pmodal-inner { padding: 1.25rem; } .pmodal h2 { font-size: 1.5rem; } }
+</style>
+<dialog class="pmodal" id="pmodal"><div class="pmodal-inner"><button class="pmodal-close" aria-label="Close">&times;</button><div id="pmodal-body"></div></div></dialog>
+<script>
+(function(){
+  var dlg=document.getElementById("pmodal"), body=document.getElementById("pmodal-body");
+  document.querySelectorAll(".pcard").forEach(function(card){
+    var more=document.createElement("div"); more.className="more"; more.textContent="View details \u2192";
+    card.querySelector(".pcard-body").appendChild(more);
+    card.setAttribute("tabindex","0"); card.setAttribute("role","button");
+    function open(){
+      var img=card.querySelector(".pcard-img img"), d=card.querySelector("details");
+      var html='<div class="num">'+card.querySelector(".num").innerHTML+'</div>'+
+        '<h2 class="display">'+card.querySelector("h2").innerHTML+'</h2>'+
+        '<div class="meta">'+card.querySelector(".meta").innerHTML+'</div>'+
+        '<img src="'+img.getAttribute("src")+'" alt="'+img.getAttribute("alt")+'">';
+      var c=d.cloneNode(true); c.querySelector("summary").remove();
+      html+=c.innerHTML+card.querySelector("ul.chips").outerHTML;
+      body.innerHTML=html; dlg.showModal(); dlg.querySelector(".pmodal-inner").scrollTop=0;
+    }
+    card.addEventListener("click",open);
+    card.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(); } });
+  });
+  dlg.querySelector(".pmodal-close").addEventListener("click",function(){ dlg.close(); });
+  dlg.addEventListener("click",function(e){ if(e.target===dlg) dlg.close(); });
+})();
+</script>
 
 <section class="section alt" id="tco">
   <div class="wrap">
-    <div class="eyebrow">04 &nbsp;/&nbsp; Interactive tool</div>
+    <div class="eyebrow">Procurement spotlight</div>
     <h2 class="section-title display">Procurement Total Cost of Ownership Calculator</h2>
-    <p class="narrow"><strong>Context:</strong> When choosing a supplier, the lowest price per unit isn't always the least expensive option. Total cost of ownership (TCO) measures what a supplier really costs over the full contract:</p>
+    <p class="tco-p"><strong>Why it's here:</strong> Total cost of ownership is how I evaluate suppliers in my day job. I built this calculator to show the thinking behind a sourcing decision.</p>
+    <p class="tco-p"><strong>Context:</strong> When choosing a supplier, the lowest price per unit isn't always the least expensive option. Total cost of ownership (TCO) measures what a supplier really costs over the full contract:</p>
     <div class="tco-eq">TCO = Purchase price + Shipping + Import duties + Quality cost + One-time setup cost &minus; Payment terms credit</div>
-    <p class="narrow">Enter two suppliers' details below to see which one actually costs less. Results update as you type.</p>
+    <p class="tco-p">Enter two suppliers' details below to see which one actually costs less. Results update as you type.</p>
 
     <div class="tco">
       <div class="tco-shared">
@@ -133,12 +244,38 @@ page-layout: full
 </section>
 
 <style>
+.pgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; padding: 2.5rem 0 3.5rem; align-items: stretch; }
+.pcard { background: #fff; border-top: 3px solid var(--camel); display: flex; flex-direction: column; scroll-margin-top: 90px; transition: transform .25s ease, box-shadow .25s ease; }
+.pcard:hover { transform: translateY(-4px); box-shadow: 0 18px 36px -22px rgba(27,36,51,.45); }
+.pcard-img { height: 220px; cursor: zoom-in; background: #fff; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--stone); overflow: hidden; }
+.pcard-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.pcard-body { padding: 1rem 1.15rem 1.1rem; display: flex; flex-direction: column; flex: 1; }
+.pcard .num { font-size: .72rem; font-weight: 600; letter-spacing: .16em; color: var(--camel-dark); }
+.pcard h2 { font-size: 1.3rem; line-height: 1.2; margin: .3rem 0 .25rem; border: none; }
+.pcard .meta { font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.pcard-key { font-weight: 600; font-size: .92rem; line-height: 1.45; margin: .6rem 0 .1rem; color: var(--ink); }
+.pcard .chips { margin: .55rem 0 .3rem; gap: .3rem; }
+.pcard .chips li { font-size: .68rem; padding: .2rem .55rem; }
+.pcard details { margin-top: .6rem; border-top: 1px solid var(--stone); padding-top: .7rem; }
+.pcard summary { cursor: pointer; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--navy); }
+.pcard summary:hover { color: var(--camel); }
+.pcard details[open] summary { margin-bottom: .6rem; }
+.pcard details p, .pcard details li { font-size: .85rem; line-height: 1.55; }
+.card-link { display: inline-block; margin-top: .7rem; font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--navy); text-decoration-color: var(--camel); }
+@media (max-width: 1000px) { .pgrid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .pgrid { grid-template-columns: 1fr; padding: 2rem 0 3rem; } }
+</style>
+<style>
+.tco-p { max-width: none; }
+.pcard-img:hover img { opacity: .85; }
+.spot-link { margin-top: 1rem; font-weight: 600; color: var(--camel-dark); }
+.spot-link a { color: var(--navy); text-decoration-color: var(--camel); }
 .jump { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.25rem; }
 .jump a { font-size: .85rem; padding: .4rem .9rem; border: 1px solid var(--sand); background: #fff; color: var(--ink); text-decoration: none; transition: border-color .2s, color .2s; }
 .jump a:hover { border-color: var(--camel); color: var(--camel); }
 .project, #tco { scroll-margin-top: 90px; }
 .tco { margin-top: 1.75rem; }
-.tco-eq { display: inline-block; margin: .25rem 0 1.25rem; padding: .9rem 1.25rem; background: #fff; border-left: 3px solid var(--camel); font-weight: 600; color: var(--ink); line-height: 1.5; }
+.tco-eq { display: block; margin: .25rem 0 1.25rem; padding: .9rem 1.25rem; background: #fff; border-left: 3px solid var(--camel); font-weight: 600; color: var(--ink); line-height: 1.5; }
 .tco label { display: block; font-size: .78rem; font-weight: 600; color: var(--muted); margin-bottom: .8rem; }
 .tco input { display: block; width: 100%; margin-top: .3rem; padding: .55rem .7rem; border: 1px solid var(--sand); background: #fff; font: inherit; font-size: 1rem; color: var(--ink); border-radius: 0; }
 .tco input:focus { outline: 2px solid var(--camel); outline-offset: -1px; }

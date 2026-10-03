@@ -31,4 +31,5 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    include-after-body: pizazz.html
+    include-after-body:
+      - pizazz.html

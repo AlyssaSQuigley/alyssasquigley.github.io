@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Four stages of the Riverdale analysis: describe ($514.70 per square foot five-year high), diagnose (CV of 2.52, high volatility), predict (about $63M in sales per quarter), prescribe (up to $773K NPV with a $63K floor)." font-family="Inter, Helvetica, Arial, sans-serif">
+<rect width="640" height="360" fill="#FAF7F2"/>
+<text x="28" y="44" font-size="12" font-weight="600" letter-spacing="2" fill="#8A6A3B">FROM DESCRIPTION TO DECISION</text>
+<text x="28" y="70" font-size="18" font-weight="600" fill="#1B2433">Five analyses, one market entry plan</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#A8804A"/></marker></defs>
+<g>
+ <rect x="28" y="100" width="128" height="200" rx="8" fill="#FFFFFF" stroke="#E6DFD3"/>
+ <rect x="178" y="100" width="128" height="200" rx="8" fill="#FFFFFF" stroke="#E6DFD3"/>
+ <rect x="328" y="100" width="128" height="200" rx="8" fill="#FFFFFF" stroke="#E6DFD3"/>
+ <rect x="478" y="100" width="134" height="200" rx="8" fill="#22324A"/>
+</g>
+<g stroke="#A8804A" stroke-width="2" marker-end="url(#ar)"><line x1="158" y1="200" x2="175" y2="200"/><line x1="308" y1="200" x2="325" y2="200"/><line x1="458" y1="200" x2="475" y2="200"/></g>
+<g font-size="11" font-weight="600" letter-spacing="1.5" fill="#8A6A3B">
+ <text x="44" y="128">DESCRIBE</text><text x="194" y="128">DIAGNOSE</text><text x="344" y="128">PREDICT</text><text x="494" y="128" fill="#C9A46A">PRESCRIBE</text>
+</g>
+<g font-size="24" font-weight="700" fill="#1B2433">
+ <text x="44" y="176">$514.70</text><text x="194" y="176">CV 2.52</text><text x="344" y="176">~$63M</text><text x="494" y="176" fill="#FAF7F2">$773K</text>
+</g>
+<g font-size="12" fill="#5B6472">
+ <text x="44" y="200">per sq ft, a</text><text x="44" y="217">five-year high</text>
+ <text x="194" y="200">high volatility</text><text x="194" y="217">across sales</text>
+ <text x="344" y="200">sales forecast</text><text x="344" y="217">per quarter</text>
+ <text x="494" y="200" fill="#CDBB9C">NPV upside with</text><text x="494" y="217" fill="#CDBB9C">a $63K floor</text>
+</g>
+<g font-size="11" fill="#8A6A3B">
+ <text x="44" y="280">Power BI, DAX</text><text x="194" y="280">R, clustering</text><text x="344" y="280">Forecasting</text><text x="494" y="280" fill="#C9A46A">Optimization</text>
+</g>
+<text x="28" y="334" font-size="13" fill="#1B2433">Recommendation: enter lean, with no new hires.</text>
+</svg>

@@ -246,3 +246,4 @@ body.quarto-dark .section.dark, body.quarto-dark .dl-card, body.quarto-dark .tco
 body.quarto-dark { --stone: #1E1E21; --ivory: #141416; --sand: #3A3A40; }
 body.quarto-dark .cred, body.quarto-dark .c-card, body.quarto-dark .course, body.quarto-dark .pillar, body.quarto-dark .tco-shared, body.quarto-dark .tco-sup, body.quarto-dark .tco-eq, body.quarto-dark .tco input, body.quarto-dark .chips li, body.quarto-dark .jump a { background: #26262A; }
 body.quarto-dark .dl-card, body.quarto-dark .tco-out, body.quarto-dark .section.dark { background: #0C0C0E; }
+#hero-net { display: none; }

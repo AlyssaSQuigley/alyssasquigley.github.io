@@ -25,3 +25,10 @@ GitHub</div></div></a>
 <div><div class="k">Based in</div>
 <div class="v">New York, NY</div></div></div>
 </div></section>
+<style>.tc{display:inline-block;width:3px;height:.85em;margin-left:5px;background:var(--camel);vertical-align:-3px;animation:caret 1s steps(1) infinite}@keyframes caret{50%{opacity:0}}</style>
+<script>
+(function(){var h=document.querySelector(".page-head h1");if(!h||matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+h.style.minHeight=h.offsetHeight+"px";var t=h.textContent,i=0,s=document.createElement("span"),c=document.createElement("span");
+c.className="tc";h.textContent="";h.appendChild(s);h.appendChild(c);
+(function k(){s.textContent=t.slice(0,i);if(i++<t.length)setTimeout(k,110);else setTimeout(function(){c.remove()},2500)})();})();
+</script>
