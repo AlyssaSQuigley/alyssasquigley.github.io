@@ -10,7 +10,7 @@ description: "Global procurement leader building the analytics edge. MS in Appli
     <div class="fade-up">
       <div class="eyebrow">Procurement &nbsp;&middot;&nbsp; Strategy &nbsp;&middot;&nbsp; Analytics</div>
       <h1 class="display">Where procurement strategy <em>meets</em> analytics.</h1>
-      <p class="lede">I'm Alyssa, a global procurement leader who has built and scaled sourcing organizations across retail, consumer, and digital commerce brands. Today I lead Global Indirect Procurement at Ralph Lauren, and I'm working toward my MS in Applied Business Analytics at Boston University to build deeper analytics capabilities into how procurement operates.</p>
+      <p class="lede">I'm Alyssa, a global procurement leader who has built and scaled sourcing organizations across retail, consumer and digital commerce brands. Today I lead Global Indirect Procurement at Ralph Lauren, and I'm working toward my MS in Applied Business Analytics at Boston University to build deeper analytics capabilities into how procurement operates.</p>
       <p style="margin-top:2rem">
         <a class="btn-ed solid" href="projects.html">View my work</a>
         <a class="btn-ed" href="cv.html">Read my CV</a>
@@ -40,7 +40,7 @@ description: "Global procurement leader building the analytics edge. MS in Appli
     </div>
     <div>
       <p>Procurement sits on some of the most valuable data in any company: every supplier, every contract, every dollar the business spends. However, in my experience, analytics remains one of the function's most underinvested capabilities. As a result, real value is left on the table because teams can't fully see what the data is telling them or act on those&nbsp;insights.</p>
-      <p>Supply-chain volatility, cost pressure, and AI are changing how quickly organizations need to identify risk and take action. I went back to school to build the technical skills to put that data to work, including SQL, Spark, cloud platforms, and data&nbsp;visualization.</p>
+      <p>Supply-chain volatility, cost pressure and AI are changing how quickly organizations need to identify risk and take action. I went back to school to build the technical skills to put that data to work, including SQL, Spark, cloud platforms and data&nbsp;visualization.</p>
     </div>
   </div>
 </section>
@@ -53,17 +53,17 @@ description: "Global procurement leader building the analytics edge. MS in Appli
       <div class="pillar">
         <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="20" cy="20" r="15"/><path d="M20 5v30M5 20h30"/><circle cx="20" cy="20" r="6"/></svg>
         <h3>Strategic Sourcing</h3>
-        <p>Category strategy, supplier negotiation, and vendor management across apparel, accessories, and home and hardlines, plus indirect categories like marketing, technology, and logistics.</p>
+        <p>Category strategy, supplier negotiation and vendor management across apparel, accessories, home and hardlines, plus indirect categories like marketing, technology and logistics.</p>
       </div>
       <div class="pillar">
         <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 30h28M10 30V18M18 30V12M26 30V20M34 30V8"/><path d="M6 14l8-6 8 6 10-8"/></svg>
         <h3>Enterprise Transformation</h3>
-        <p>Standing up centralized procurement functions, procure-to-pay and ERP rollouts, M&amp;A integration, and change management.</p>
+        <p>Standing up centralized procurement functions, procure-to-pay and ERP rollouts, M&amp;A integration and change management.</p>
       </div>
       <div class="pillar">
         <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="6" width="28" height="28" rx="2"/><path d="M6 14h28M14 14v20"/><path d="M19 28l4-6 4 3 4-7"/></svg>
         <h3>Analytics &amp; Insight</h3>
-        <p>Spend analysis, KPI frameworks, and dashboards, now backed by hands-on work in Python, SQL, Spark, R, and Power BI.</p>
+        <p>Spend analysis, KPI frameworks and dashboards, now backed by hands-on work in Python, SQL, Spark, R and Power BI.</p>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ description: "Global procurement leader building the analytics edge. MS in Appli
 <section class="section">
   <div class="wrap narrow">
     <div class="eyebrow">Where I'm headed</div>
-    <p class="pull display">I want to lead procurement organizations where analytics is a core capability, not an afterthought: predictive spend insight, early supplier-risk signals, and decision tools that let teams move faster and with confidence.</p>
+    <p class="pull display">I want to lead procurement organizations where analytics is a core capability, not an afterthought: predictive spend insight, early supplier-risk signals and decision tools that let teams move faster and with confidence.</p>
   </div>
 </section>
 
