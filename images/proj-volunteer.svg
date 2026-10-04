@@ -1,23 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="25 committees report through one shared form into one monthly view of volunteer hours, events, committees reporting and community partners." font-family="Inter, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="25 committees report through one shared form into one monthly view for council leaders." font-family="Inter, Helvetica, Arial, sans-serif">
 <rect width="640" height="360" fill="#FAF7F2"/>
-<g fill="#FFFFFF" stroke="#E6DFD3">
- <rect x="24" y="24" width="138" height="62" rx="6"/><rect x="174" y="24" width="138" height="62" rx="6"/><rect x="324" y="24" width="138" height="62" rx="6"/><rect x="474" y="24" width="142" height="62" rx="6"/>
-</g>
-<g fill="#A8804A"><rect x="40" y="40" width="18" height="3" rx="1.5"/><rect x="190" y="40" width="18" height="3" rx="1.5"/><rect x="340" y="40" width="18" height="3" rx="1.5"/><rect x="490" y="40" width="18" height="3" rx="1.5"/></g>
-<g font-size="13" font-weight="600" fill="#1B2433">
- <text x="40" y="64">Volunteer hours</text><text x="190" y="64">Events</text><text x="340" y="64">Committees</text><text x="490" y="64">Community</text>
-</g>
-<g font-size="13" font-weight="600" fill="#1B2433"><text x="340" y="78">reporting</text><text x="490" y="78">partners</text></g>
-<rect x="24" y="100" width="592" height="236" rx="6" fill="#FFFFFF" stroke="#E6DFD3"/>
-<text x="44" y="130" font-size="11" font-weight="600" letter-spacing="1.5" fill="#8A6A3B">HOW REPORTING FLOWS</text>
-<g fill="#EFE7DA"><rect x="44" y="160" width="152" height="140" rx="8"/><rect x="244" y="160" width="152" height="140" rx="8"/></g>
-<rect x="444" y="160" width="152" height="140" rx="8" fill="#22324A"/>
-<g fill="#22324A"><circle cx="78" cy="196" r="7"/><circle cx="100" cy="196" r="7"/><circle cx="122" cy="196" r="7"/><circle cx="144" cy="196" r="7"/><circle cx="166" cy="196" r="7"/></g>
-<g fill="none" stroke="#22324A" stroke-width="2"><rect x="300" y="182" width="40" height="30" rx="3"/><line x1="308" y1="192" x2="332" y2="192"/><line x1="308" y1="202" x2="324" y2="202"/></g>
-<g fill="#CDBB9C"><rect x="490" y="200" width="12" height="14" rx="2"/><rect x="508" y="190" width="12" height="24" rx="2"/><rect x="526" y="182" width="12" height="32" rx="2"/><rect x="544" y="194" width="12" height="20" rx="2"/></g>
-<g font-size="15" font-weight="700" text-anchor="middle">
- <text x="120" y="244" fill="#1B2433">25 committees</text><text x="320" y="244" fill="#1B2433">One shared form</text><text x="520" y="244" fill="#FAF7F2">One monthly view</text>
-</g>
-<g font-size="11" text-anchor="middle"><text x="120" y="272" fill="#5B6472">each reports hours</text><text x="320" y="272" fill="#5B6472">same fields for all</text><text x="520" y="272" fill="#CDBB9C">for council leaders</text></g>
-<g stroke="#A8804A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M206 230h28M226 222l8 8-8 8"/><path d="M406 230h28M426 222l8 8-8 8"/></g>
+<text x="32" y="52" font-size="12" font-weight="600" letter-spacing="2" fill="#8A6A3B">HOW VOLUNTEER REPORTING FLOWS</text>
+<g fill="#EFE7DA"><rect x="32" y="96" width="168" height="200" rx="8"/><rect x="236" y="96" width="168" height="200" rx="8"/></g>
+<rect x="440" y="96" width="168" height="200" rx="8" fill="#22324A"/>
+<g fill="#22324A"><circle cx="76" cy="160" r="8"/><circle cx="98" cy="160" r="8"/><circle cx="120" cy="160" r="8"/><circle cx="142" cy="160" r="8"/><circle cx="164" cy="160" r="8"/></g>
+<g fill="none" stroke="#22324A" stroke-width="2.2"><rect x="296" y="140" width="48" height="38" rx="3"/><line x1="305" y1="153" x2="335" y2="153"/><line x1="305" y1="165" x2="325" y2="165"/></g>
+<g fill="#CDBB9C"><rect x="494" y="158" width="13" height="20" rx="2"/><rect x="512" y="146" width="13" height="32" rx="2"/><rect x="530" y="136" width="13" height="42" rx="2"/><rect x="548" y="152" width="13" height="26" rx="2"/></g>
+<g font-size="17" font-weight="700" text-anchor="middle"><text x="116" y="226" fill="#1B2433">25 committees</text><text x="320" y="226" fill="#1B2433">One shared form</text><text x="524" y="226" fill="#FAF7F2">One monthly view</text></g>
+<g font-size="12" text-anchor="middle"><text x="116" y="254" fill="#5B6472">each reports hours</text><text x="320" y="254" fill="#5B6472">same fields for all</text><text x="524" y="254" fill="#CDBB9C">for council leaders</text></g>
+<g stroke="#A8804A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M206 196h24M222 188l8 8-8 8"/><path d="M410 196h24M426 188l8 8-8 8"/></g>
 </svg>

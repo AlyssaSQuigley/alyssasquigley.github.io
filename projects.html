@@ -168,11 +168,16 @@ ul.task-list li input[type="checkbox"] {
           <p><strong>Context:</strong> A restaurant on Rainey Street in Austin asked whether to invest $175,000 in its own microbrewery.</p>
           <p class="wid"><strong>What I did:</strong></p>
           <ul>
-            <li>Built a 36-month financial model covering pricing, production and costs</li>
-            <li>Tested buying versus renting brewing tanks. Buying 10 tanks came out about $24K ahead.</li>
-            <li>Ran 10,000 simulations to stress-test profit against changing demand</li>
+            <li>Built a 36-month financial model covering pricing, production and costs.</li>
+            <li>Compared buying and renting brewing tanks. Buying 10 tanks saved about $24K.</li>
+            <li>Ran 10,000 simulations to stress-test profit against changing demand.</li>
           </ul>
-          <p><strong>Result:</strong> Recommended the investment. It pays back in 9 months, with a 98% chance of at least $2.05M in profit over three years.</p>
+          <p class="wid"><strong>Results:</strong></p>
+          <ul>
+            <li>Recommended the investment.</li>
+            <li>It pays back in 9 months.</li>
+            <li>There's a 98% chance of at least $2.05M in profit over three years.</li>
+          </ul>
           <p><strong>What I learned:</strong> A single forecast hides risk. Simulation turns it into a range you can plan around.</p>
         </details>
       </div>
@@ -190,11 +195,16 @@ ul.task-list li input[type="checkbox"] {
           <p><strong>Context:</strong> Our team analyzed a sales database for a fictional food distributor to find what drives revenue.</p>
           <p class="wid"><strong>What I did:</strong></p>
           <ul>
-            <li>Owned the product category analysis</li>
-            <li>Ranked products within each category using SQL window functions, then ran the queries in Python</li>
-            <li>Measured how much of each category's revenue comes from its top product</li>
+            <li>Owned the product category analysis.</li>
+            <li>Ranked products within each category using SQL window functions, then ran the queries in Python.</li>
+            <li>Measured how much of each category's revenue comes from its top product.</li>
           </ul>
-          <p><strong>Result:</strong> One product drives 57.8% of Beverages revenue, while Condiments is the most balanced at 15.8%. Categories that depend on one product carry more supply risk.</p>
+          <p class="wid"><strong>Results:</strong></p>
+          <ul>
+            <li>One product drives 57.8% of Beverages revenue.</li>
+            <li>Condiments is the most balanced category at 15.8%.</li>
+            <li>Categories that depend on one product carry more supply risk.</li>
+          </ul>
           <p><strong>What I learned:</strong> Sales data can reveal supply risk, not just revenue.</p>
         </details>
       </div>
@@ -204,43 +214,75 @@ ul.task-list li input[type="checkbox"] {
       <div class="pcard-body">
         <div class="num">03 &nbsp;/&nbsp; BUSINESS ANALYTICS</div>
         <h2 class="display anchored">Riverdale Market Entry Strategy</h2>
-        <div class="meta">AD 571 · Spring 2026 · Individual · 5-part analysis</div>
-        <p class="pcard-key">An optimized entry plan with up to $773K in NPV and a $63K floor in a downturn</p>
+        <div class="meta">AD 571 · Spring 2026 · Individual project</div>
+        <p class="pcard-key">Recommended a lean entry with up to $773K in upside and a $63K profit floor</p>
         <ul class="chips"><li>Power BI</li><li>R</li><li>Clustering</li><li>Forecasting</li><li>Optimization</li></ul>
         <details>
           <summary>Details</summary>
           <p><strong>Context:</strong> A five-part analysis of whether a real estate firm should expand into Riverdale in the Bronx.</p>
           <p class="wid"><strong>What I did:</strong></p>
           <ul>
-            <li>Found prices at a five-year high of $514.70 per square foot (Power BI)</li>
-            <li>Found prices are highly volatile (coefficient of variation of 2.52), with few mid-market homes (R)</li>
-            <li>Forecast about $63M in sales per quarter and showed that size, not age or season, drives price</li>
-            <li>Built an optimization model to set the commission rate and staffing</li>
+            <li>Found prices at a five-year high of $514.70 per square foot.</li>
+            <li>Found prices swing widely and few homes sit in the middle of the market.</li>
+            <li>Showed that home size drives price more than age or season.</li>
+            <li>Built an optimization model to set the commission rate and staffing.</li>
           </ul>
-          <p><strong>Result:</strong> Recommended entering lean with no new hires. That protects a $63K profit floor and keeps up to $773K in upside.</p>
+          <p class="wid"><strong>Results:</strong></p>
+          <ul>
+            <li>Recommended entering lean with no new hires.</li>
+            <li>Even in a downturn, profit stays above $63K.</li>
+            <li>The upside is up to $773K.</li>
+          </ul>
           <p><strong>What I learned:</strong> My recommendation changed as the analysis got deeper. Early numbers said go now. Risk modeling said go lean.</p>
+        </details>
+      </div>
+    </article>
+    <article class="pcard" id="spark-aws">
+      <div class="pcard-img"><img src="images/proj-spark.svg" alt="Pipeline: 165,386 job postings are processed on AWS EC2 with PySpark, queried with Spark SQL and published as a Quarto report." loading="lazy"></div>
+      <div class="pcard-body">
+        <div class="num">04 &nbsp;/&nbsp; BIG DATA &amp; CLOUD</div>
+        <h2 class="display anchored">Job Postings Analysis with Spark SQL on AWS</h2>
+        <div class="meta">AD 688 · Fall 2026 · Individual project</div>
+        <p class="pcard-key">Processed 165,386 job postings in the cloud with Spark SQL</p>
+        <ul class="chips"><li>AWS EC2</li><li>PySpark</li><li>Spark SQL</li><li>Quarto</li><li>Git</li></ul>
+        <details>
+          <summary>Details</summary>
+          <p><strong>Context:</strong> I built a cloud data pipeline for 165,386 real job postings from BU's MET Career Match data. I focused on data and BI analyst roles in tech.</p>
+          <p class="wid"><strong>What I did:</strong></p>
+          <ul>
+            <li>Set up an AWS EC2 server to run PySpark.</li>
+            <li>Loaded the data in stages, from raw files to clean tables.</li>
+            <li>Built four related tables and wrote Spark SQL queries to join them.</li>
+            <li>Published the results in a Quarto report and kept all keys out of GitHub.</li>
+          </ul>
+          <p class="wid"><strong>Results:</strong></p>
+          <ul>
+            <li>The suggested industry code returned zero rows. I checked the data and found the code actually used.</li>
+            <li>Only 3 of 12 major cities had salary data. That's too little to compare pay by city.</li>
+          </ul>
+          <p><strong>What I learned:</strong> Check the data before you trust a suggestion, even one from AI. A query that runs isn't always a query that's right.</p>
         </details>
       </div>
     </article>
     <article class="pcard" id="fashion-apparel">
       <div class="pcard-img"><img src="images/proj-skills.svg" alt="Bar chart: Power BI and SQL each appear in 7 of 19 apparel analytics job postings; Excel and Python in 5" loading="lazy"></div>
       <div class="pcard-body">
-        <div class="num">04 &nbsp;/&nbsp; TEAM PROJECT <span class="status">In progress</span></div>
+        <div class="num">05 &nbsp;/&nbsp; CAREER ANALYTICS <span class="status">In progress</span></div>
         <h2 class="display anchored">Fashion &amp; Apparel Career Evaluation</h2>
         <div class="meta">AD 688 · Fall 2026 · Team project</div>
-        <p class="pcard-key">Power BI and SQL top the list. Each appears in 7 of 19 postings.</p>
+        <p class="pcard-key">Power BI and SQL are the most requested skills in 7 of 19 postings</p>
         <ul class="chips"><li>Python</li><li>pandas</li><li>Plotly</li><li>Quarto</li><li>GitHub</li></ul>
         <details>
           <summary>Details</summary>
           <p><strong>Context:</strong> Our team is building a research site on analyst roles at apparel and fashion employers. We used 19 job postings from employers like Vuori, TJX, Adidas and Ralph Lauren.</p>
           <p class="wid"><strong>What I did:</strong></p>
           <ul>
-            <li>Built the filtered industry dataset the team uses</li>
-            <li>Cleaned the salary, experience, location and work-arrangement fields</li>
+            <li>Built the filtered industry dataset the team uses.</li>
+            <li>Cleaned the salary, experience, location and work-arrangement fields.</li>
             <li>Led the skill gap analysis. I compared the skills employers ask for with our team's own ratings.</li>
             <li>Built the career evaluation. I scored each posting on skill fit, experience needed and how often the employer is hiring.</li>
           </ul>
-          <p class="wid"><strong>Findings:</strong></p>
+          <p class="wid"><strong>Results:</strong></p>
           <ul>
             <li>Power BI and SQL are the most requested skills. Each appears in 7 of 19 postings.</li>
             <li>Power BI is our team's biggest gap. It is in high demand but has our lowest skill rating.</li>
@@ -252,9 +294,9 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </article>
     <article class="pcard" id="volunteer-dashboard">
-      <div class="pcard-img"><img src="images/proj-volunteer.svg" alt="25 committees report through one shared form into one monthly view of volunteer hours, events, committees reporting and community partners." loading="lazy"></div>
+      <div class="pcard-img"><img src="images/proj-volunteer.svg" alt="25 committees report through one shared form into one monthly view for council leaders." loading="lazy"></div>
       <div class="pcard-body">
-        <div class="num">05 &nbsp;/&nbsp; NONPROFIT LEADERSHIP</div>
+        <div class="num">06 &nbsp;/&nbsp; NONPROFIT LEADERSHIP</div>
         <h2 class="display anchored">Community Volunteer Impact Dashboard</h2>
         <div class="meta">New York Junior League</div>
         <p class="pcard-key">One view of volunteer hours, events and reporting across 25 committees</p>
@@ -264,36 +306,17 @@ ul.task-list li input[type="checkbox"] {
           <p><strong>Context:</strong> Each committee reported volunteer hours differently, so leaders had no single view of impact.</p>
           <p class="wid"><strong>What I did:</strong></p>
           <ul>
-            <li>Built one dashboard of member volunteer hours and events across 25 committees</li>
-            <li>Split direct service hours from meetings and prep</li>
-            <li>Tracked which committees submitted monthly reports and which needed follow-up</li>
-            <li>Summarized community partner survey feedback across three survey cycles</li>
+            <li>Built one dashboard of member volunteer hours and events across 25 committees.</li>
+            <li>Split direct service hours from meetings and prep.</li>
+            <li>Tracked which committees submitted monthly reports and which needed follow-up.</li>
+            <li>Summarized community partner survey feedback across three survey cycles.</li>
           </ul>
-          <p><strong>Result:</strong> Council leaders can see where volunteer time goes and act on reporting gaps each month.</p>
-          <p><strong>What I learned:</strong> A dashboard is only as good as the reporting behind it. Fixing the process mattered as much as the visuals.</p>
-        </details>
-      </div>
-    </article>
-    <article class="pcard" id="meal-spend">
-      <div class="pcard-img"><img src="images/proj-meals.svg" alt="Illustration: menu price plus tips, app fees and other fees make up the true cost of a meal order." loading="lazy"></div>
-      <div class="pcard-body">
-        <div class="num">06 &nbsp;/&nbsp; PROCUREMENT ANALYTICS</div>
-        <h2 class="display anchored">Meal Spend Analysis</h2>
-        <div class="meta">New York Junior League</div>
-        <p class="pcard-key">Created order-size rules for meal ordering and confirmed the best delivery provider</p>
-        <ul class="chips"><li>Spend analysis</li><li>Fee analysis</li><li>Vendor strategy</li></ul>
-        <details>
-          <summary>Details</summary>
-          <p><strong>Context:</strong> Committee meal costs were rising, and the League wanted to know if it was ordering the right way.</p>
-          <p class="wid"><strong>What I did:</strong></p>
+          <p class="wid"><strong>Results:</strong></p>
           <ul>
-            <li>Analyzed a year of committee meal orders by size, fees and ordering method</li>
-            <li>Confirmed our current delivery provider was still the lowest-fee option</li>
-            <li>Found the catering option for large orders was rarely used</li>
-            <li>Created order-size cutoffs from the analysis that tell committees when to use standard delivery, catering or a catering platform</li>
+            <li>Council leaders can see where volunteer time goes.</li>
+            <li>They can act on reporting gaps each month.</li>
           </ul>
-          <p><strong>Result:</strong> The cutoffs became meal-ordering guidance for all committee co-chairs.</p>
-          <p><strong>What I learned:</strong> Small fees add up. Clear rules work better than asking people to compare options every time.</p>
+          <p><strong>What I learned:</strong> A dashboard is only as good as the reporting behind it. Fixing the process mattered as much as the visuals.</p>
         </details>
       </div>
     </article>
@@ -416,6 +439,7 @@ dialog.pmodal::backdrop { background: rgba(27,36,51,.55); }
 .pcard details[open] summary { margin-bottom: .6rem; }
 .pcard details p, .pcard details li { font-size: .85rem; line-height: 1.55; }
 .card-link { display: inline-block; margin-top: .7rem; font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--navy); text-decoration-color: var(--camel); }
+@media (min-width: 1001px) { .pgrid > .pcard:last-child:nth-child(3n+1) { grid-column: 2; } }
 @media (max-width: 1000px) { .pgrid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px) { .pgrid { grid-template-columns: 1fr; padding: 2rem 0 3rem; } }
 </style>
