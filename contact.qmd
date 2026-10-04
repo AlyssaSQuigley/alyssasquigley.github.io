@@ -10,7 +10,9 @@ page-layout: full
 procurement and analytics leaders, fellow BU students and anyone working on better ways to put data to work.</p>
 </div></section>
 
+```{=html}
 <section class="section"><div class="wrap narrow contact-cards">
+<a class="c-card" href="mailto:aquigley@bu.edu"><i class="bi bi-envelope"></i><div><div class="k">Email</div><div class="v">aquigley@bu.edu</div></div></a>
 <a class="c-card" href="https://www.linkedin.com/in/alyssa-q/">
 <i class="bi bi-linkedin"></i>
 <div><div class="k">LinkedIn</div>
@@ -20,10 +22,8 @@ procurement and analytics leaders, fellow BU students and anyone working on bett
 <div><div class="k">GitHub</div>
 <div class="v">View my
 GitHub</div></div></a>
-<div class="c-card"><i class="bi bi-geo-alt"></i>
-<div><div class="k">Based in</div>
-<div class="v">New York, NY</div></div></div>
 </div></section>
+```
 <style>.tc{display:inline-block;width:3px;height:.85em;margin-left:5px;background:var(--camel);vertical-align:-3px;animation:caret 1s steps(1) infinite}@keyframes caret{50%{opacity:0}}</style>
 <script>
 (function(){var h=document.querySelector(".page-head h1");if(!h||matchMedia("(prefers-reduced-motion: reduce)").matches)return;
