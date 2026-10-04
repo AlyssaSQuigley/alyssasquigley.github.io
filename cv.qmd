@@ -17,7 +17,7 @@ description: "Executive profile: global procurement and strategic sourcing leade
     <div>
       <div class="eyebrow">Professional summary</div>
       <p class="lede" style="color:var(--ink)">Global procurement and strategic sourcing leader with deep experience across consumer, retail and digital commerce organizations.</p>
-      <p>I've built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing multi-billion-dollar global spend portfolios and delivering hundreds of millions in cost savings. My work spans category strategy, supplier management, procure-to-pay and ERP implementation, M&amp;A integration and enterprise transformation.</p>
+      <p>I've built centralized procurement functions from the ground up and driven performance and scale inside large, established companies, managing up to $2B in annual global spend and delivering hundreds of millions in cost savings. My work spans category strategy, supplier management, procure-to-pay and ERP implementation, M&amp;A integration and enterprise transformation.</p>
       <p>I'm now pairing that operating experience with formal training in analytics through Boston University's MS in Applied Business Analytics.</p>
     </div>
     <div class="dl-card">
