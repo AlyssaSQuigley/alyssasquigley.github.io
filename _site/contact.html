@@ -177,6 +177,45 @@ h.style.minHeight=h.offsetHeight+"px";var t=h.textContent,i=0,s=document.createE
 c.className="tc";h.textContent="";h.appendChild(s);h.appendChild(c);
 (function k(){s.textContent=t.slice(0,i);if(i++<t.length)setTimeout(k,110);else setTimeout(function(){c.remove()},2500)})();})();
 </script>
+<section class="plane-wrap" aria-hidden="true">
+<svg class="plane-svg" viewbox="0 0 1000 170" preserveaspectratio="xMidYMid meet">
+<path id="pl-path" class="pl-trail" d="M -30 130 C 140 130 260 60 400 80 C 520 98 600 40 545 22 C 490 4 455 70 540 92 C 660 122 780 92 885 112" fill="none"></path>
+<g class="pl-env">
+<rect x="884" y="92" width="64" height="44" rx="4" fill="#FFFFFF" stroke="#22324A" stroke-width="2.2"></rect>
+<path d="M886 95 L916 118 L946 95" fill="none" stroke="#22324A" stroke-width="2.2" stroke-linejoin="round"></path>
+<circle class="pl-dot" cx="948" cy="92" r="7" fill="#A8804A"></circle>
+</g>
+<g id="pl-plane">
+<path d="M -16 -9 L 16 0 L -16 9 L -9 0 Z" fill="#22324A"></path>
+<path d="M -9 0 L 16 0" stroke="#A8804A" stroke-width="1.6"></path>
+<animatemotion id="pl-anim" dur="3.4s" begin="indefinite" fill="freeze" rotate="auto" calcmode="spline" keypoints="0;1" keytimes="0;1" keysplines="0.42 0 0.58 1"><mpath href="#pl-path"></mpath></animatemotion>
+<animate attributename="opacity" begin="pl-anim.end" dur="0.35s" from="1" to="0" fill="freeze"></animate>
+</g>
+</svg>
+</section>
+<style>
+.plane-wrap{max-width:1100px;margin:0 auto;padding:0 16px 2.5rem}
+.plane-svg{width:100%;height:auto;display:block;overflow:visible}
+.pl-trail{stroke:#CDBB9C;stroke-width:2;stroke-linecap:round;stroke-dasharray:var(--len);stroke-dashoffset:var(--len)}
+.plane-go .pl-trail{animation:pl-draw 3.4s cubic-bezier(.42,0,.58,1) forwards}
+@keyframes pl-draw{to{stroke-dashoffset:0}}
+.pl-dot{opacity:0;transform-origin:948px 92px;transform:scale(0)}
+.plane-go .pl-dot{animation:pl-pop .4s 3.5s ease-out forwards}
+@keyframes pl-pop{to{opacity:1;transform:scale(1)}}
+#pl-plane{opacity:0}
+.plane-go #pl-plane{opacity:1}
+.plane-still .pl-trail{stroke-dashoffset:0}
+.plane-still .pl-dot{opacity:1;transform:scale(1)}
+</style>
+<script>
+(function(){
+var w=document.querySelector(".plane-wrap"),p=document.getElementById("pl-path");if(!w||!p)return;
+var L=p.getTotalLength();w.style.setProperty("--len",L);
+if(matchMedia("(prefers-reduced-motion: reduce)").matches){w.classList.add("plane-still");return;}
+function go(){w.classList.add("plane-go");document.getElementById("pl-anim").beginElement();}
+if("IntersectionObserver" in window){var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){o.disconnect();go();}},{threshold:.6});o.observe(w);}else go();
+})();
+</script>
 
 
 
