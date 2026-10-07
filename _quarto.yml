@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  search: false
   title: "Alyssa Q."
   description: "Global procurement leader building the analytics edge."
   site-url: "https://alyssasquigley.github.io"
